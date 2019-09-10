@@ -7,6 +7,7 @@ class SuperShelf extends Component {
   render() {
     return (
       <>
+        <Navbar />
         <ApplicationViews />
       </>
     );

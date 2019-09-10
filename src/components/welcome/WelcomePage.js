@@ -12,8 +12,8 @@ class Welcome extends Component {
                     <p className ="center">Please Log In Below</p>
                 </div>
                 <div className="welcome--btns">
-                    <button className="login--btn">Login</button>
-                    <button className="register--btn">Register New Account</button>
+                <Link to="/Login"><button className="login--btn">Login</button></Link>
+                <Link to="/Registration"><button className="register--btn">Register New Account</button></Link> 
                 </div>
             </>
         );
