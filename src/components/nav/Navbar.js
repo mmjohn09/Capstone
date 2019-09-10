@@ -10,13 +10,13 @@ class Navbar extends Component {
                         <Link className="nav-link" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/news">My Collection</Link>
+                        <Link className="nav-link" to="/MyCollection">My Collection</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/events">My Wishlist</Link>
+                        <Link className="nav-link" to="/MyWishlist">My Wishlist</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/messages">Messages</Link>
+                        <Link className="nav-link" to="/Messages">Messages</Link>
                     </li>
                 </ul>
             </nav>

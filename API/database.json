@@ -6,5 +6,12 @@
       "password": "123",
       "id": 1
     }
+  ],
+  "messages": [
+    {
+      "message": "What's up?",
+      "userId": "1",
+      "id": 1
+    }
   ]
 }
