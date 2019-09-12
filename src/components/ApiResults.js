@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import TitleSearch from './TitleSearch';
 
 export default class ApiResults extends Component {
 

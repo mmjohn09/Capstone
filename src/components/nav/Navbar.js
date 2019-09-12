@@ -16,6 +16,7 @@ class Navbar extends Component {
             <li><Link className="nav-link" to="/collection">My Collection</Link></li>
             <li><Link className="nav-link" to="/wishlist">My Wishlist</Link></li>
             <li><Link className="nav-link" to="/messages">Messages</Link></li>
+            <li><Link className="nav-link" to="/search">Search</Link></li>
           </ul>
         </nav>
       </header>
