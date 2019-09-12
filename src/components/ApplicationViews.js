@@ -4,6 +4,7 @@ import Welcome from './auth/WelcomePage'
 import Registration from './auth/Registration'
 import Login from './auth/Login'
 import ApiResults from './ApiResults'
+import TitleSearch from './TitleSearch'
 
 
 export default class ApplicationViews extends Component {
@@ -26,7 +27,11 @@ export default class ApplicationViews extends Component {
                 <Route exact path='/collection/' render={props => {
                         return <ApiResults {...props} />
                 }} />
-              </>
+
+                <Route exact path='/search' render={props => {
+                        return <TitleSearch {...props} />
+                }} />
+        </>
         )
      }
 }
