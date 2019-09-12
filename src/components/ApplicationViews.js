@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Welcome from './auth/WelcomePage'
 import Registration from './auth/Registration'
 import Login from './auth/Login'
-import ApiResults from './api/ApiResults'
+import ApiResults from './ApiResults'
 
 
 export default class ApplicationViews extends Component {
