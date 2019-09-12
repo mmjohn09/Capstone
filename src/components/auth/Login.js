@@ -15,13 +15,13 @@ class Login extends Component {
         this.setState(stateToChange)
     }
 
-    handleLogin = (e) => {
-        e.preventDefault()
+    handleLogin = (evt) => {
+        evt.preventDefault()
         UserManager.checkUser(this.state.email, this.state.password)
         .then(results=>{
             if(results.length>0) {
-                sessionStorage.setItem("credentials", results[0].id)
-                this.props.history.push("/MyCollection");
+                sessionStorage.setItem("activeUser", results[0].id)
+                this.props.history.push("/collection");
             } else {
                 alert("Incorrect email or password")
             } 

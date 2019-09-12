@@ -8,7 +8,6 @@ class Welcome extends Component {
         return (
             <>
                 <div className="card">
-                    <h1 className ="center">Super Shelf</h1>
                     <p className ="center">Please Log In Below</p>
                 </div>
                 <div className="welcome--btns">

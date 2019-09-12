@@ -1,41 +1,32 @@
 import { Route, withRouter, Redirect } from "react-router-dom"
 import React, { Component } from "react";
-import Welcome from './welcome/WelcomePage'
+import Welcome from './auth/WelcomePage'
 import Registration from './auth/Registration'
 import Login from './auth/Login'
-import MessageList from './messages/MessageList'
-import MessageAddForm from './messages/MessageAddForm'
-import MessageEditForm from './messages/MessageEditForm'
+import ApiResults from './api/ApiResults'
+
 
 export default class ApplicationViews extends Component {
-    isAuthenticated = () => sessionStorage.getItem("credentials") !== null
-
-    render() {
-        return (
-            <>
-                <Route exact path='/' component={Welcome} />
-
-                <Route path='/registration' component={Registration} />
-
-                <Route path='/login' component={Login} />
-
-                <Route exact path="/messages" render={props => {
-                    if (this.isAuthenticated()) {
-                        return <MessageList {...props} />
-                    } else {
-                        return <Redirect to="/login" />
-                    }
+   isAuthenticated = () => sessionStorage.getItem("credentials") !== null
+        render() {
+           return (
+              <>
+                <Route exact path='/' render={props => {
+                return <Welcome {...props} />
                 }} />
 
-                <Route path="/messages/new" render={(props) => {
-                    return <MessageAddForm {...props} />
+                <Route exact path='/registration' render={props => {
+                return <Registration {...props} />
+                }} />
+                                
+                <Route exact path='/login' render={props => {
+                return <Login {...props} />
                 }} />
 
-                <Route path="/messages/:messageId(\d+)/edit" render={props => {
-                    return <MessageEditForm {...props} />
-                }}
-                />
-            </>
+                <Route exact path='/collection/' render={props => {
+                        return <ApiResults {...props} />
+                }} />
+              </>
         )
-    }
+     }
 }

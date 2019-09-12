@@ -5,13 +5,21 @@
       "email": "mj@mail.com",
       "password": "123",
       "id": 1
+    },
+    {
+      "username": "Joe",
+      "email": "joe@mail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "username": "Jane",
+      "email": "jane@mail.com",
+      "password": "123",
+      "id": 3
     }
   ],
-  "messages": [
-    {
-      "message": "What's up?",
-      "userId": "1",
-      "id": 1
-    }
-  ]
+  "messages": [],
+  "collection": [],
+  "wishlist": []
 }

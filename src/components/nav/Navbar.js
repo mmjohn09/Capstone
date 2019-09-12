@@ -1,27 +1,25 @@
-import React, { Component } from "react"
+import React, { Component } from 'react';
 import { Link } from "react-router-dom"
+// import './NavBar.css'
 
 class Navbar extends Component {
-    render() {
-        return (
-            <nav className="navbar">
-                <ul className="nav">
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/">Home</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/MyCollection">My Collection</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/MyWishlist">My Wishlist</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/Messages">Messages</Link>
-                    </li>
-                </ul>
-            </nav>
-        )
-    }
+
+  render(){
+
+    return (
+      <header>
+        <h1 className="site-title">Super Shelf<br /></h1>
+        <nav>
+          <ul className="container">
+            <li><Link className="nav-link" to="/">Home</Link></li>
+            <li><Link className="nav-link" to="/collection">My Collection</Link></li>
+            <li><Link className="nav-link" to="/wishlist">My Wishlist</Link></li>
+            <li><Link className="nav-link" to="/messages">Messages</Link></li>
+          </ul>
+        </nav>
+      </header>
+    )
+  }
 }
 
-export default Navbar
+export default Navbar;
