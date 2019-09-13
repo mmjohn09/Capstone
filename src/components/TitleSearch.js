@@ -1,14 +1,18 @@
 import React, { Component } from 'react'
 import './TitleSearch.css'
+import CollectionManager from '../modules/CollectionManager';
 
 
 class TitleSearch extends Component {
 
   state = {
     volumes: [],
-    issues: [],
-    isLoaded: false,
-    searchInput: ""
+    searchInput: "",
+    small_url:"",
+    name: "",
+    publisher: "",
+    start_year: "",
+    isLoaded: false
   }
 
   handleFieldChange = (evt) => {
@@ -33,23 +37,27 @@ class TitleSearch extends Component {
       })
   }
 
-  getIssuesInVolume = (evt) => {
+  createNewEntry = (evt, id) => {
     evt.preventDefault()
+    const selectedVolumeObject = this.state.volumes.find(volume => {
+      return volume.id === id
+    })
+    // this.state({ isLoaded: true })
+      const entry = {
+        coverImg: this.state.small_url,
+        title: this.state.name,
+        publisher: this.state.publisher,
+        date: this.state.start_year,
+        userId: parseInt(sessionStorage.getItem("activeUser"))
+      }
 
-    fetch(`https://cors-anywhere.herokuapp.com/http://comicvine.gamespot.com/api/volumes?limit=20&api_key=29f523a340e2f41efd60b3cbcfb936da5fbba4d2&filter=name:${this.state.searchInput}&format=json`)
+      CollectionManager.createNewEntry(selectedVolumeObject)
+      .then(() => this.props.history.push("/collection"))
   }
 
 
 
   render() {
-
-    // const { isLoaded, volumes } = this.state;
-
-    // if (!isLoaded) {
-    //   return <div>Loading...</div>;
-    // }
-
-    // else {
 
       return (
         <>
@@ -75,7 +83,7 @@ class TitleSearch extends Component {
             <div className='card-deck'>
               {this.state.volumes.map(volume => (
                 <div className='card' key={volume.id}>
-                  <img className='card-img-top' src={volume.image.small_url} onClick={() => this.getVolumeByName(volume.name)} />
+                  <img className='card-img-top' src={volume.image.small_url} />
                   <div className='card-body'>
                     <h2 className='card-title'>{volume.name}</h2>
                     <p className='card-content'>
@@ -83,7 +91,7 @@ class TitleSearch extends Component {
                     Publisher: {volume.publisher.name}<br></br>
                     First Published: {volume.start_year}</p>
                     <div>
-                    <button type="button">Add to Collection</button>
+                    <button type="button" onClick={(evt) => this.createNewEntry(evt, volume.id)}>Add to Collection</button>
                     <button type="button">Add to Wishlist</button>
                   </div>
                   </div>
@@ -95,11 +103,6 @@ class TitleSearch extends Component {
         </>
       )
     }
-  // }
-
-
-
-
-}
+ }
 
 export default TitleSearch
