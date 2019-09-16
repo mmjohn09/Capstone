@@ -1,7 +1,7 @@
 const remoteURL = "http://localhost:5002"
 
 export default {
-    createNewEntry(collectionItem) {
+    createNewCollectionItem(collectionItem) {
         return fetch (`${remoteURL}/collection`, {
             method: "POST",
             headers: {
@@ -12,8 +12,15 @@ export default {
 
     },
 
-    getAllEntries(userId) {
+    getAllCollectionItems(userId) {
         return fetch(`${remoteURL}/collection?userId=${userId}`)
         .then(result => result.json())
+    },
+
+    deleteCollectionItem(id) {
+        return fetch(`${remoteURL}/collection/${id}`, {
+            method: "DELETE"
+        })
+            .then(result => result.json())
     }
 }

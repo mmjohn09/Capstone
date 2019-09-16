@@ -3,8 +3,8 @@ import React, { Component } from "react";
 import Welcome from './auth/WelcomePage'
 import Registration from './auth/Registration'
 import Login from './auth/Login'
-import ApiResults from './ApiResults'
-import TitleSearch from './TitleSearch'
+import ApiResults from './CollectionList'
+import TitleSearch from './CollectionAdd'
 
 
 export default class ApplicationViews extends Component {

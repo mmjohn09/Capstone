@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+.site-title {
+    font-family: 'bangers', 'arial', 'sans-serif';
+    font-size: 50px;
+}
+
+.container {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container li {
+    display: inline-block;
+    margin: 15px;
+    margin-right: -4px;
+}

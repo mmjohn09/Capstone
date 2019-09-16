@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom"
-// import './NavBar.css'
+import './Navbar.css'
 
 
 class Navbar extends Component {
@@ -9,7 +9,7 @@ class Navbar extends Component {
 
     return (
       <header>
-        <h1 className="site-title">Super Shelf<br /></h1>
+        {/* <h1 className="site-title">Super Shelf<br /></h1> */}
         <nav>
           <ul className="container">
             <li><Link className="nav-link" to="/">Home</Link></li>

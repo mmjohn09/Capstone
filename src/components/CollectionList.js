@@ -1,24 +1,20 @@
 import React, { Component } from 'react'
-import TitleSearch from './TitleSearch';
 import CollectionManager from '../modules/CollectionManager'
-import './TitleSearch.css'
+import './CollectionAdd.css'
 
-
-export default class ApiResults extends Component {
+export default class CollectionList extends Component {
 
     state = {
-        comics: [],
         volumes: [],
         entries: [],
         isLoaded: false,
     }
 
-
     activeUser = parseInt(sessionStorage.getItem("activeUser"))
     componentDidMount() {
         console.log("Event LIST: ComponentDidMount");
         //getAll from CollectionManager and hang on to that data; put it in state
-        CollectionManager.getAllEntries(this.activeUser)
+        CollectionManager.getAllCollectionItems(this.activeUser)
             .then((entries) => {
                 this.setState({
                     entries: entries
@@ -26,20 +22,19 @@ export default class ApiResults extends Component {
             })
     }
 
-    // getVolumeIssues(userSearch) {
-
-    //     fetch(`https://cors-anywhere.herokuapp.com/http://comicvine.gamespot.com/api/volumes?limit=100&api_key=29f523a340e2f41efd60b3cbcfb936da5fbba4d2&filter=name:${userSearch}&format=json`)
-    //         .then(result => result.json())
-    //         .then(volumes => {
-    //             this.setState({
-    //                 isLoaded: true,
-    //                 volumes: volumes.results
-    //             })
-    //         })
-    // }
+    deleteCollectionItem = id => {
+        CollectionManager.deleteCollectionItem(id)
+            .then(() => {
+                CollectionManager.getAllCollectionItems(this.loggedInUser)
+                    .then((newCollection) => {
+                        this.setState({
+                            entries: newCollection
+                        })
+                    })
+            })
+    }
 
     render() {
-
 
         return (
             <div className='card-deck-wrapper'>
@@ -53,7 +48,15 @@ export default class ApiResults extends Component {
                                     Number of Issues: {entry.count_of_issues}<br></br>
                                     Publisher: {entry.publisher.name}<br></br>
                                     First Published: {entry.start_year}</p>
-
+                                <div>
+                                    <span>Condition:<select>
+                                        <option value="excellent">Excellent</option>
+                                        <option value="good">Good</option>
+                                        <option value="fair">Fair</option>
+                                        <option value="poor">Poor</option>
+                                    </select></span>
+                                    <div><button type="button" onclick={this.deleteCollectionItem}>Delete</button></div>
+                                </div>
                             </div>
                         </div>
                     ))}
@@ -61,5 +64,4 @@ export default class ApiResults extends Component {
             </div>
         )
     }
-
 }
