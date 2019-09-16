@@ -12,7 +12,6 @@ export default class CollectionList extends Component {
 
     activeUser = parseInt(sessionStorage.getItem("activeUser"))
     componentDidMount() {
-        console.log("Event LIST: ComponentDidMount");
         //getAll from CollectionManager and hang on to that data; put it in state
         CollectionManager.getAllCollectionItems(this.activeUser)
             .then((entries) => {
@@ -55,7 +54,7 @@ export default class CollectionList extends Component {
                                         <option value="fair">Fair</option>
                                         <option value="poor">Poor</option>
                                     </select></span>
-                                    <div><button type="button" onclick={this.deleteCollectionItem}>Delete</button></div>
+                                    <div><button type="button" onClick={this.deleteCollectionItem}>Delete</button></div>
                                 </div>
                             </div>
                         </div>

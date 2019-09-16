@@ -73,7 +73,7 @@ class CollectionAdd extends Component {
       <>
         <div>
           <fieldset>
-            <h3>Search</h3>
+            <h5>Search Volumes</h5>
             <div className="formgrid">
               <input onChange={this.handleFieldChange} type="text"
                 id="searchInput"
@@ -89,23 +89,26 @@ class CollectionAdd extends Component {
           </fieldset>
         </div>
 
-        <div className='card-deck-wrapper'>
-          <div className='card-deck'>
+        <div className='card-container'>
+          <div className="row hidden-md-up">
             {this.state.volumes.map(volume => (
-              <div className='card' key={volume.id}>
-                <img id={`searchResultImg--${volume.id}`} className='card-img-top' src={volume.image.small_url} onClick={(evt) => this.getIssueByVolume(evt, volume.id)} />
-                <div className='card-body'>
-                  <h2 className='card-title'>{volume.name}</h2>
-                  <p className='card-content'>
-                    Number of Issues: {volume.count_of_issues}<br></br>
-                    Publisher: {volume.publisher.name}<br></br>
-                    First Published: {volume.start_year}</p>
-                  {/* <div>
+              
+                <div className="card-block" key={volume.id}>
+                  <img className='card-img-top' src={volume.image.small_url}  />
+                  <div className='card-body'>
+                    <h5 className='card-title'>{volume.name}</h5>
+                    <p className='card-content'>
+                      Number of Issues: {volume.count_of_issues}<br></br>
+                      Publisher: {volume.publisher.name}<br></br>
+                      First Published: {volume.start_year}</p>
+
+                      <button className='align-self-end'id={`searchResultImg--${volume.id}`} type="button" onClick={(evt) => this.getIssueByVolume(evt, volume.id)}>See All Issues</button>
+                    {/* <div>
                     <button type="button" onClick={(evt) => this.createNewCollectionItem(evt, volume.id)}>Add to Collection</button>
                     <button type="button" onClick={(evt) => this.createNewWishlistItem(evt, volume.id)}>Add to Wishlist</button>
                   </div> */}
+                  </div>
                 </div>
-              </div>
             ))}
           </div>
         </div>
