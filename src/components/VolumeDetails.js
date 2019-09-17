@@ -3,9 +3,7 @@ import CollectionManager from '../modules/CollectionManager';
 import WishlistManager from '../modules/WishlistManager';
 import './VolumeDetails.css'
 
-
 class VolumeDetail extends Component {
-
     state = {
         issues: [],
         volumes: [],
@@ -29,7 +27,7 @@ class VolumeDetail extends Component {
         const selectedIssueObject = this.state.issues.find(issue => {
           return issue.id === id
         })
-        const entry = {
+        const collectionEntry = {
           coverImg: this.state.small_url,
           title: this.state.name,
           publisher: this.state.publisher,
@@ -46,7 +44,7 @@ class VolumeDetail extends Component {
         const selectedIssueObject = this.state.issues.find(issue => {
           return issue.id === id
         })
-        const entry = {
+        const wishlistEntry = {
           coverImg: this.state.small_url,
           title: this.state.name,
           publisher: this.state.publisher,

@@ -105,3 +105,21 @@ input {
 
 .login--btn:hover 
      {opacity: 1}
+
+.enter-btn {
+    margin-left: 40%;
+    width: 300px;
+    height: 41px;
+    /* background-color: black;
+    color: white; */
+    font-size: 18pt;
+    border-radius: 2px;
+    border-width: 2px;
+    font-family: 'oswald', 'arial', 'sans-serif';
+    opacity: 0.6;
+  transition: 0.3s;
+}
+
+.enter-btn:hover {
+    opacity: 1;
+}

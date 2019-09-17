@@ -8,11 +8,13 @@ import VolumeDetail from './VolumeDetails'
 import CollectionList from "./CollectionList";
 
 
+
 export default class ApplicationViews extends Component {
         isAuthenticated = () => sessionStorage.getItem("credentials") !== null
         render() {
                 return (
                         <>
+
                                 <Route exact path='/welcome' render={props => {
                                         return <Welcome {...props} />
                                 }} />
@@ -39,7 +41,7 @@ export default class ApplicationViews extends Component {
                               
                                 <Route path="/volumes/:volumeId(\d+)" render={(props) => {
                                         // Pass the VolumeId to the VolumeDetailComponent
-                                        return <VolumeDetail volumeId={parseInt(props.match.params.volumeId)} />
+                                        return <VolumeDetail {...props} volumeId={parseInt(props.match.params.volumeId)} />
                                 }} /> }
                         </>
                 )

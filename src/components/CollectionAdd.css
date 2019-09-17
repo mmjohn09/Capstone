@@ -9,8 +9,6 @@
 
 } */
 
-
-
 h5 {
     font-family: 'oswald', 'arial', 'sans-serif';
     color: white;
@@ -122,4 +120,10 @@ button:hover {
 
 .card-body {
     padding: 10px;
+}
+
+.search-btn {
+    margin-left: 40%;
+    width: 300px;
+    height: 45px;
 }

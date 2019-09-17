@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './CollectionAdd.css'
-import CollectionManager from '../modules/CollectionManager';
+// import CollectionManager from '../modules/CollectionManager';
 import { Link } from "react-router-dom"
 
 
@@ -70,7 +70,7 @@ class CollectionAdd extends Component {
               <label htmlFor="searchInput"></label>
 
             </div>
-            <button type="button"
+            <button className="search-btn" type="button"
               onClick={this.getVolumeByName}>
                 SEARCH
           </button>
