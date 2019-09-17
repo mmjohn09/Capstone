@@ -13,7 +13,6 @@ class Navbar extends Component {
         <nav className='navbar navbar-default'>
           <div className='container-fluid'>
             <div className='navbar-header'>
-              <a className='navbar-brand' href='#'></a>
               <ul className="container">
                 <li><Link className="nav-link" to="/">Home</Link></li>
                 <li><Link className="nav-link" to="/collection">My Collection</Link></li>

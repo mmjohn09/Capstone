@@ -3,8 +3,9 @@ import React, { Component } from "react";
 import Welcome from './auth/WelcomePage'
 import Registration from './auth/Registration'
 import Login from './auth/Login'
-import ApiResults from './CollectionList'
 import TitleSearch from './CollectionAdd'
+import VolumeDetail from './VolumeDetails'
+import CollectionList from "./CollectionList";
 
 
 export default class ApplicationViews extends Component {
@@ -12,7 +13,7 @@ export default class ApplicationViews extends Component {
         render() {
                 return (
                         <>
-                                <Route exact path='/' render={props => {
+                                <Route exact path='/welcome' render={props => {
                                         return <Welcome {...props} />
                                 }} />
 
@@ -24,20 +25,22 @@ export default class ApplicationViews extends Component {
                                         return <Login {...props} />
                                 }} />
 
-                                <Route exact path='/collection/' render={props => {
-                                        return <ApiResults {...props} />
+                                <Route exact path='/collection' render={props => {
+                                        return <CollectionList {...props} />
                                 }} />
+
+                                {/* <Route exact path='/wishlist/' render={props => {
+                                        return <WishlistList {...props} />
+                                }} /> */}
 
                                 <Route exact path='/search' render={props => {
                                         return <TitleSearch {...props} />
                                 }} />
-                                {/* <Route exact path="/volumes" render={(props) => {
-                                        return <VolumeList />
-                                }} />
+                              
                                 <Route path="/volumes/:volumeId(\d+)" render={(props) => {
-                                        // Pass the VolumeId to the AnimalDetailComponent
-                                        return <VolumeDetails volumeId={parseInt(props.match.params.volumeId)} />
-                                }} /> */}
+                                        // Pass the VolumeId to the VolumeDetailComponent
+                                        return <VolumeDetail volumeId={parseInt(props.match.params.volumeId)} />
+                                }} /> }
                         </>
                 )
         }

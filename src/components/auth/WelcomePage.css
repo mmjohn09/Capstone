@@ -45,9 +45,13 @@ body {
     margin-top: 200px;
 }
 
-.formgrid {
+.formgrid-login {
     margin-top: 250px;
   
+}
+
+.formgrid-registration {
+    margin-top: 250px;
 }
 
 input {

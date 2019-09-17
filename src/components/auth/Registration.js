@@ -57,7 +57,7 @@ class Registration extends Component {
             return (
                 <form>
                     <fieldset>
-                        <div className="formgrid">
+                        <div className="formgrid-registration">
                             <input onChange={this.handleFieldChange} type="text"
                                 id="username"
                                 placeholder="Username"

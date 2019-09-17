@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 /* @font-face {
     font-family: 'adam_warren_proregular';
     src: url('adamwarrenpro-webfont.woff2') format('woff2'),
@@ -7,6 +8,37 @@
     font-style: normal;
 
 } */
+
+
+
+h5 {
+    font-family: 'oswald', 'arial', 'sans-serif';
+    color: white;
+    margin-left: 45%;
+    font-size: 24pt;
+}
+
+button {
+    margin: 3px;
+    width: 300px;
+    font-family: 'Oswald', 'arial', 'sans-serif';
+    font-size: 18pt;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 2px;
+    border-width: 2px;
+    margin-left: 40%;
+    /* background-color: black;
+    color: white; */
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.formgrid {
+    margin-top: 10px;
+}
 
 .card-img-top {
     width: 230px;
@@ -28,9 +60,14 @@
 }
 
 .card-title {
-    font-family: 'Arial','Sans-Serif'; 
-    margin: 5px;
+    font-family: 'oswald','Arial','Sans-Serif'; 
+    margin: 0px;
 } 
+
+.card-content {
+    font-family: 'oswald','Arial','Sans-Serif'; 
+    color: white;
+}
 
 
 /* .card-body {
@@ -55,4 +92,34 @@
 
 .card-container {
     display: grid;
+    justify-content: space-evenly;
+    margin-left: 60px;
+}
+
+.volume-details-btn {
+    margin: 3px;
+    width: 100px;
+    font-family: 'Oswald', 'arial', 'sans-serif';
+    font-size: 12pt;
+    opacity: .9;
+    transition: 0.3s;
+    /* background-color: black;
+    color: white; */
+    border-radius: 2px;
+    border-width: 2px;
+}
+
+.volume-details-btn:hover {
+    opacity: 1;
+}
+
+.card-title {
+    font-family: 'oswald', 'arial', 'sans-serif';
+    color: white;
+    font-size: 18pt;
+    margin-top: 5px;
+}
+
+.card-body {
+    padding: 10px;
 }

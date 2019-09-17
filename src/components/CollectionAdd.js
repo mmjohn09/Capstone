@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './CollectionAdd.css'
 import CollectionManager from '../modules/CollectionManager';
+import { Link } from "react-router-dom"
+
 
 
 class CollectionAdd extends Component {
@@ -51,29 +53,15 @@ class CollectionAdd extends Component {
       })
   }
 
-  createNewCollectionItem = (evt, id) => {
-    evt.preventDefault()
-    const selectedVolumeObject = this.state.volumes.find(volume => {
-      return volume.id === id
-    })
-    const entry = {
-      coverImg: this.state.small_url,
-      title: this.state.name,
-      publisher: this.state.publisher,
-      publishDate: this.state.start_year,
-      userId: parseInt(sessionStorage.getItem("activeUser"))
-    }
-
-    CollectionManager.createNewCollectionItem(selectedVolumeObject)
-      .then(() => this.props.history.push("/collection"))
-  }
+  
 
   render() {
     return (
       <>
+
         <div>
           <fieldset className="search-field">
-            <h5>Search Volumes</h5>
+            <h5>Add to your lists</h5>
             <div className="formgrid">
               <input onChange={this.handleFieldChange} type="text"
                 id="searchInput"
@@ -84,7 +72,7 @@ class CollectionAdd extends Component {
             </div>
             <button type="button"
               onClick={this.getVolumeByName}>
-              Submit
+                SEARCH
           </button>
           </fieldset>
         </div>
@@ -94,19 +82,16 @@ class CollectionAdd extends Component {
             {this.state.volumes.map(volume => (
               
                 <div className="card-block" key={volume.id}>
-                  <img className='card-img-top' src={volume.image.small_url}  />
+                  <img className='card-img-top' src={volume.image.small_url} alt="" />
                   <div className='card-body'>
-                    <h5 className='card-title'>{volume.name}</h5>
+                    <p className='card-title'>{volume.name}</p>
                     <p className='card-content'>
                       Number of Issues: {volume.count_of_issues}<br></br>
                       Publisher: {volume.publisher.name}<br></br>
                       First Published: {volume.start_year}</p>
 
-                      <button className='align-self-end'id={`searchResultImg--${volume.id}`} type="button" onClick={(evt) => this.getIssueByVolume(evt, volume.id)}>See All Issues</button>
-                    {/* <div>
-                    <button type="button" onClick={(evt) => this.createNewCollectionItem(evt, volume.id)}>Add to Collection</button>
-                    <button type="button" onClick={(evt) => this.createNewWishlistItem(evt, volume.id)}>Add to Wishlist</button>
-                  </div> */}
+                      <Link to={`/volumes/${volume.id}`}><button className='volume-details-btn'id={`searchResultImg--${volume.id}`}>See All Issues</button></Link>
+                    
                   </div>
                 </div>
             ))}

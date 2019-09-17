@@ -3,149 +3,61 @@
     {
       "username": "mj",
       "email": "mj@mail.com",
-      "password": "123",
+      "password": "maggie",
       "id": 1
     },
     {
       "username": "Joe",
       "email": "joe@mail.com",
-      "password": "123",
+      "password": "joe",
       "id": 2
     },
     {
       "username": "Jane",
       "email": "jane@mail.com",
-      "password": "123",
+      "password": "jane",
       "id": 3
+    },
+    {
+      "username": "peterparker",
+      "email": "peterparker@mail.com",
+      "password": "peter",
+      "id": 4
     }
   ],
-  "messages": [],
   "collection": [
     {
-      "aliases": "The Mighty Thor",
-      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-2294/",
-      "count_of_issues": 293,
-      "date_added": "2008-06-06 11:08:11",
-      "date_last_updated": "2019-08-29 13:49:32",
-      "deck": "Volume 1.",
-      "description": "<p>This is continued from <a href=\"../../journey-into-mystery/49-1497/\" rel=\"nofollow\">Journey into Mystery (vol. 1)</a>.</p><p>Journey into Mystery volume 1 was a comic that began publication in 1952 by <a href=\"/atlas/4010-75/\" data-ref-id=\"4010-75\">Atlas</a>, and although it wasn't until the eighty-third issue that <a href=\"../29-2268/\" rel=\"nofollow\">Thor</a> even appeared in comics, let alone the title, it is most often linked to his character. This is why after releasing the one hundred and twenty-fifth issue of the series in 1966 that the series changed its name to become the first volume entitled Thor. As of #407, the book was renamed <a href=\"//www.comicvine.com/the-mighty-thor/4050-61213/\" data-ref-id=\"4050-61213\">The Mighty Thor (vol. 1)</a> until #491 when it returned to simply <i>Thor</i>. In 1996, after 502 issues of the series the name changed back to <a href=\"../../journey-into-mystery/49-7168/\" rel=\"nofollow\">Journey into Mystery (vol. 3)</a> which is what it was called up until its end in 1998 with issue 521. Although these later Journey into Mystery issues (#503-521) spin out of Thor vol.1, they are not counted in the collective Thor series.</p><p>In 1998, Thor's adventures restarted with a new number one issue in <a href=\"../49-6226/\" rel=\"nofollow\">Thor (vol. 2)</a> and there they were contained until issue eighty-five when the series concluded in 2004. After that, Thor disappeared for a couple years until he returned in 2007 for his newest volume, <a href=\"../49-18831/\" rel=\"nofollow\">Thor (vol. 3)</a>, which lasted for twelve issues with its restarted numbering. Marvel then published 599 comics in the collectively-grouped \"Thor\" series and therefore reverted the numbering back to its original Thor with issue 600. The series again returned to it's original title name \" <a href=\"../../journey-into-mystery/49-39761/\" rel=\"nofollow\">Journey Into Mystery</a>\" with issue 622. And Thor continued in <a href=\"//www.comicvine.com/the-mighty-thor/4050-39763/\" data-ref-id=\"4050-39763\">The Mighty Thor (vol. 2)</a>. With the events of <a href=\"//www.comicvine.com/marvel-now/4015-56129/\" data-ref-id=\"4015-56129\">Marvel NOW!</a> Thor was once again restarted as <a href=\"/thor-god-of-thunder/4050-53920/\" data-ref-id=\"4050-53920\">Thor: God of Thunder (vol. 1)</a>.</p><h4>Collected Editions</h4><ul><li><a href=\"https://www.comicvine.com/marvel-masterworks-the-mighty-thor-4-volume-4/4000-232239/\" data-ref-id=\"4000-232239\">Marvel Masterworks: Mighty Thor Vol. 4</a> (#126-130)</li><li><a href=\"https://comicvine.gamespot.com/thor-epic-collection-when-titans-clash/4050-95441/\" data-ref-id=\"4050-95441\">Thor Epic Collection: When Titans Clash</a> (#126-130)</li><li><a href=\"https://comicvine.gamespot.com/thor-vs-hercules/4050-36372/\">Thor vs. Hercules</a> (#126, 221, 356 &amp; 437)</li><li><a href=\"https://comicvine.gamespot.com/kirby-is-mighty-king-size/4050-120010/\">Kirby Is... Mighty! King-Size</a> (#126, 131-133, 137-139, 160-162 &amp; 167-170)</li><li><a href=\"https://www.comicvine.com/marvel-masterworks-the-mighty-thor-5-volume-5/4000-232946/\" data-ref-id=\"4000-232946\">Marvel Masterworks: Mighty Thor Vol. 5</a> (#131-140)</li><li><a href=\"https://comicvine.gamespot.com/thor-epic-collection-the-wrath-of-odin/4050-104642/\" data-ref-id=\"4050-104642\">Thor Epic Collection: The Wrath of Odin</a> (#131-153)</li><li><a href=\"/kingsize-kirby/4050-83141/\" data-ref-id=\"4050-83141\">King-Size Kirby </a>(#134-346 &amp; 154-157)</li><li><a href=\"https://comicvine.gamespot.com/avengers-kang-time-and-time-again/4050-30427/\" data-ref-id=\"4050-30427\">Avengers: Kang: Time and Time Again</a> (#140)</li><li><a href=\"https://www.comicvine.com/marvel-masterworks-the-mighty-thor-6-volume-6/4000-233357/\" data-ref-id=\"4000-233357\">Marvel Masterworks: Mighty Thor Vol. 6</a> (#141-152)</li><li><a href=\"https://www.comicvine.com/marvel-masterworks-the-mighty-thor-7-volume-7/4000-394403/\" data-ref-id=\"4000-394403\">Marvel Masterworks: Mighty Thor Vol. 7</a> (#153-162)</li><li><a href=\"https://comicvine.gamespot.com/mighty-thor-omnibus-3-volume-three/4000-625317/\" data-ref-id=\"4000-625317\">Mighty Thor Omnibus Volume Three</a> (#153-194)</li><li><a href=\"https://comicvine.gamespot.com/thor-of-the-realms/4050-120326/\">Thor of the Realms</a> (#157, 159, 233-234 &amp; 347-349)</li><li><a href=\"https://www.comicvine.com/marvel-masterworks-the-mighty-thor-8-volume-8/4000-394405/\" data-ref-id=\"4000-394405\">Marvel Masterworks: Mighty Thor Vol. 8</a> (#163-172)</li><li><a href=\"https://www.comicvine.com/marvel-masterworks-the-mighty-thor-9-volume-9/4000-394406/\" data-ref-id=\"4000-394406\">Marvel Masterworks: Mighty Thor Vol. 9</a> (#173-183)</li><li><a href=\"https://comicvine.gamespot.com/thor-epic-collection-the-fall-of-asgard/4050-113904/\">Thor Epic Collection: The Fall of Asgard</a> (#175-194)</li><li><a href=\"https://www.comicvine.com/marvel-masterworks-the-mighty-thor-10-volume-10/4000-394408/\" data-ref-id=\"4000-394408\">Marvel Masterworks: Mighty Thor Vol. 10</a> (#184-194)</li><li><a href=\"https://www.comicvine.com/marvel-masterworks-the-mighty-thor-11-volume-11/4000-394409/\" data-ref-id=\"4000-394409\">Marvel Masterworks: Mighty Thor Vol. 11</a> (#195-205)</li><li><a href=\"https://www.comicvine.com/marvel-masterworks-the-mighty-thor-12-volume-12/4000-429001/\" data-ref-id=\"4000-429001\">Marvel Masterworks: Mighty Thor Vol. 12</a> (#206-216)</li><li><a href=\"https://www.comicvine.com/marvel-masterworks-the-mighty-thor-13-volume-13/4000-473180/\" data-ref-id=\"4000-473180\">Marvel Masterworks: Mighty Thor Vol. 13</a> (#217-228)</li><li><a href=\"https://www.comicvine.com/essential-thor-6-volume-6/4000-428999/\" data-ref-id=\"4000-428999\">Essential Thor vol. 6</a> (#221-247)</li><li><a href=\"/marvel-masterworks-the-mighty-thor-14-volume-14/4000-495526/\" data-ref-id=\"4000-495526\">Marvel Masterworks: Mighty Thor Vol. 14</a> (#229-241)</li><li><a href=\"https://comicvine.gamespot.com/doctor-strange-lords-of-fear/4050-107359/\" data-ref-id=\"4050-107359\">Doctor Strange: Lords of Fear</a> (#229-230)</li><li><a href=\"https://comicvine.gamespot.com/marvel-masterworks-the-mighty-thor-15-volume-15/4000-520206/\" data-ref-id=\"4000-520206\">Marvel Masterworks: Mighty Thor Vol. 15</a> (#242-254)</li><li><a href=\"https://www.comicvine.com/essential-thor-7-volume-7/4000-429000/\" data-ref-id=\"4000-429000\">Essential Thor vol. 7</a> (#248-271)</li><li><a href=\"/thor-if-asgard-should-perish/4050-37385/\" data-ref-id=\"4050-37385\">If Asgard Should Perish</a> (#242-253)</li><li><a href=\"/thor-the-quest-for-odin/4050-39592/\" data-ref-id=\"4050-39592\">Quest for Odin</a> (#255-266)</li><li><a href=\"https://comicvine.gamespot.com/marvel-masterworks-the-mighty-thor-16-volume-16/4000-628586/\" data-ref-id=\"4000-628586\">Marvel Masterworks: Mighty Thor Vol. 16</a> (#255-266)</li><li><a href=\"/thor-gods-gladiators-and-the-guardians-of-the-gala/4050-65216/\" data-ref-id=\"4050-65216\">Thor: Gods, Gladiators and the Guardians of the Galaxy</a> (#267-271)</li><li><a href=\"/marvel-masterworks-the-mighty-thor-17-volume-17/4000-692071/\" data-ref-id=\"4000-692071\">Marvel Masterworks: The Mighty Thor Volume 17</a> (#267-278)</li><li><a href=\"/thor-ragnarok/4050-39087/\" data-ref-id=\"4050-39087\">Ragnarok</a> (#272-278)</li><li><a href=\"https://comicvine.gamespot.com/squadron-supreme-classic-omnibus/4050-90892/\" data-ref-id=\"4050-90892\">Squadron Supreme Classic Omnibus</a> (#280)</li><li><a href=\"/thor-the-eternals-saga-volume-one/4000-245515/\" data-ref-id=\"4000-245515\">The Eternals Saga Vol. 1</a> (#283-291), <a href=\"/thor-the-eternals-saga-volume-two/4000-245523/\" data-ref-id=\"4000-245523\">Vol. 2</a> (#292-301)</li><li><a href=\"https://comicvine.gamespot.com/thor-epic-collection-runequest/4050-93027/\" data-ref-id=\"4050-93027\">Thor Epic Collection: Runequest</a> (#320-336)</li><li><a href=\"https://comicvine.gamespot.com/avengersdoctor-strange-rise-of-the-darkhold/4050-114044/\">Avengers/Doctor Strange: Rise of the Darkhold</a> (#332-333)</li><li><a href=\"/thor-visionaries-walter-simonson-volume-one/4000-245367/\" data-ref-id=\"4000-245367\">Visionaries Walter Simonson Vol. 1</a> (#337-348), <a href=\"/thor-visionaries-walter-simonson-volume-two/4000-225163/\" data-ref-id=\"4000-225163\">Vol. 2</a> (#349-355, #357-359), <a href=\"/thor-visionaries-walter-simonson-volume-three/4000-245373/\" data-ref-id=\"4000-245373\">Vol. 3</a> (#360-369), <a href=\"/thor-visionaries-walter-simonson-volume-four/4000-245395/\" data-ref-id=\"4000-245395\">Vol. 4</a> (#371-374), <a href=\"/thor-visionaries-walter-simonson-volume-five/4000-245512/\" data-ref-id=\"4000-245512\">Vol. 5</a> (#375-382)</li><li><a href=\"https://comicvine.gamespot.com/thor-corps/4050-88780/\" data-ref-id=\"4050-88780\">Thor Corps</a> (#337, 384 &amp; 433)</li><li><a href=\"https://www.comicvine.com/the-mighty-thor-by-walter-simonson-1-volume-1/4000-420918/\" data-ref-id=\"4000-420918\">The Mighty Thor By Walter Simonson vol. 1</a> (#337-345)</li><li><a href=\"https://comicvine.gamespot.com/war-of-the-realms-prelude/4050-117612/\">War of the Realms Prelude</a> (#344)</li><li><a href=\"https://www.comicvine.com/the-mighty-thor-by-walter-simonson-2-volume-2/4000-427862/\" data-ref-id=\"4000-427862\">The Mighty Thor By Walter Simonson vol. 2</a> (#346-355)</li><li><a href=\"/avengers-no-more-bullying/4050-85078/\" data-ref-id=\"4050-85078\">Avengers: No More Bullying</a> (#356)</li><li><a href=\"https://www.comicvine.com/the-mighty-thor-by-walter-simonson-3-volume-3/4000-435865/\" data-ref-id=\"4000-435865\">The Mighty Thor By Walter Simonson vol. 3</a> (#357-363)</li><li><a href=\"/thor-balder-the-brave/4050-33280/\" data-ref-id=\"4050-33280\">Thor: Balder the Brave</a> (#360-362)</li><li><a href=\"https://comicvine.gamespot.com/marvels-thor-ragnarok-prelude/4050-104801/\" data-ref-id=\"4050-104801\">Marvel's Thor: Ragnarok Prelude</a> (#361)</li><li><a href=\"https://www.comicvine.com/the-mighty-thor-by-walter-simonson-4-volume-4/4000-447235/\" data-ref-id=\"4000-447235\">The Mighty Thor By Walter Simonson vol. 4</a> (#364-369 &amp; 371-374)</li><li><a href=\"https://comicvine.gamespot.com/thors-battleworld/4050-88781/\" data-ref-id=\"4050-88781\">Thors: Battleworld</a> (#364-365)</li><li><a href=\"https://comicvine.gamespot.com/black-panther-by-christopher-priest-the-complete-c/4000-523249/\" data-ref-id=\"4000-523249\">Black Panther by Christopher Priest: The Complete Collection Volume 3</a> (#370)</li><li><a href=\"https://comicvine.gamespot.com/x-men-mutant-massacre-omnibus/4050-115098/\">X-Men: Mutant Massacre Omnibus</a> (#373-374 &amp; 377-378)</li><li><a href=\"https://comicvine.gamespot.com/x-men-milestones-mutant-massacre/4050-120422/\">X-Men Milestones: Mutant Massacre</a> (#373-374)</li><li><a href=\"https://www.comicvine.com/the-mighty-thor-by-walter-simonson-5-volume-5/4000-451340/\" data-ref-id=\"4000-451340\">The Mighty Thor By Walter Simonson vol. 5</a> (#375-382)</li><li><a href=\"https://comicvine.gamespot.com/decades-marvel-in-the-80s-awesome-evolutions/4050-118846/\">Decades: Marvel In The '80s: Awesome Evolutions</a> (#378)</li><li><a href=\"//www.comicvine.com/the-mighty-thor-epic-collection-war-of-the-pantheo/4050-68574/\" data-ref-id=\"4050-68574\">The Mighty Thor Epic Collection: War of the Pantheons</a> (#383-400)</li><li><a href=\"https://comicvine.gamespot.com/thor-vs-hulk/4050-104825/\" data-ref-id=\"4050-104825\">Thor vs. Hulk</a> (#385 &amp; 489)</li><li><a href=\"https://comicvine.gamespot.com/marvel-adventures-thorspider-man/4050-40732/\">Marvel Adventures: Thor/Spider-Man</a> (#391)</li><li><a href=\"/thor-vs-seth-the-serpent-god/4050-38222/\" data-ref-id=\"4050-38222\">Thor vs. Seth</a> (#395-400)</li><li><a href=\"https://comicvine.gamespot.com/thor-epic-collection-in-mortal-flesh/4050-103274/\" data-ref-id=\"4050-103274\">Thor Epic Collection: In Mortal Flesh</a> (#401-418)</li><li><a href=\"/thor-the-black-galaxy-saga/4050-42051/\" data-ref-id=\"4050-42051\">Black Galaxy Saga</a> (#419-425)</li><li><a href=\"https://comicvine.gamespot.com/thor-epic-collection-the-black-galaxy/4050-120963/\">Thor Epic Collection: The Black Galaxy</a> (#419-436)</li><li><a href=\"/thor-thunderstrike/4050-41100/\" data-ref-id=\"4050-41100\">Thunderstrike</a> (#431-433, #457-459)</li><li><a href=\"https://comicvine.gamespot.com/avengers-epic-collection-operation-galactic-storm/4050-103068/\" data-ref-id=\"4050-103068\">Avengers Epic Collection: Operation Galactic Storm</a> (#445-446)</li><li><a href=\"/thor-blood-and-thunder/4050-41504/\" data-ref-id=\"4050-41504\">Blood and Thunder</a> (#468-471)</li><li>Visionaries Mike Dedato Jr. (#491-494, #498-502)</li><li><a href=\"https://comicvine.gamespot.com/thor-epic-collection-worldengine/4050-111591/\">Thor Epic Collection: Worldengine</a> (#491-502)</li><li><a href=\"//www.comicvine.com/thor-sunlight-and-shadows/4050-69226/\" data-ref-id=\"4050-69226\">Thor: Sunlight and Shadows</a> (#495 and 497-502)</li><li><a href=\"https://comicvine.gamespot.com/captain-america-epic-collection-man-without-a-coun/4050-89584/\" data-ref-id=\"4050-89584\">Captain America Epic Collection: Man Without A Country</a> (#496)</li><li><a href=\"https://comicvine.gamespot.com/avengersiron-man-first-sign/4050-67287/\" data-ref-id=\"4050-67287\">Avengers/Iron Man: First Sign</a> (#496)</li></ul><h4>Non-U.S. Collected Editions</h4><ul><li><a href=\"https://comicvine.gamespot.com/kingsize-kirby/4050-104017/\" data-ref-id=\"4050-104017\">King-Size Kirby</a> (#134-136 &amp; #154-157) (Spanish)</li><li><a href=\"https://comicvine.gamespot.com/visionarios-marvel-stan-lee/4050-95780/\" data-ref-id=\"4050-95780\">Visionarios Marvel: Stan Lee</a> (#182-183) (Spanish)</li><li><a href=\"https://comicvine.gamespot.com/coleccionable-marvel-heroes-48-thor-de-walter-simo/4000-612256/\">Coleccionable Marvel Héroes - Thor de Walter Simonson: Primera parte</a> (#337-355, #357-362) (Spanish)</li><li><a href=\"https://comicvine.gamespot.com/coleccionable-marvel-heroes-66-marvel-75-anos-la-e/4000-612302/\">Coleccionable Marvel Héroes - Marvel 75 Años: La Era Moderna</a> (#360-362) (Spanish)</li><li><a href=\"https://comicvine.gamespot.com/coleccionable-marvel-heroes-49-thor-de-walter-simo/4000-612257/\">Coleccionable Marvel Héroes - Thor de Walter Simonson: Segunda parte</a> (#363-369 &amp; #371-382) (Spanish)</li><li><a href=\"https://comicvine.gamespot.com/coleccionable-marvel-heroes-53-secret-wars-ii-quie/4000-612261/\">Coleccionable Marvel Héroes - Secret Wars II: ¿Quién es el Todopoderoso?</a> (#363) (Spanish)</li><li><a href=\"https://comicvine.gamespot.com/coleccionable-marvel-heroes-54-secret-wars-ii-circ/4000-612262/\">Coleccionable Marvel Héroes - Secret Wars II: Círculo cerrado</a> (#383) (Spanish)</li><li><a href=\"https://comicvine.gamespot.com/coleccionable-marvel-heroes-83-el-poderoso-thor-de/4000-621990/\">Coleccionable Marvel Héroes - El poderoso Thor de DeFalco y Frenz 1</a> (#383-408) (Spanish)</li><li><a href=\"https://comicvine.gamespot.com/coleccionable-marvel-heroes-28-thor-el-dios-serpie/4000-612233/\">Coleccionable Marvel Héroes - Thor: El dios serpiente</a> (#394-400) (Spanish)</li></ul>",
-      "first_issue": {
-        "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-8434/",
-        "id": 8434,
-        "name": "Whom the Gods Would Destroy!",
-        "issue_number": "126"
-      },
-      "id": 2294,
-      "image": {
-        "icon_url": "https://comicvine.gamespot.com/api/image/square_avatar/2677628-thor126.jpg",
-        "medium_url": "https://comicvine.gamespot.com/api/image/scale_medium/2677628-thor126.jpg",
-        "screen_url": "https://comicvine.gamespot.com/api/image/screen_medium/2677628-thor126.jpg",
-        "screen_large_url": "https://comicvine.gamespot.com/api/image/screen_kubrick/2677628-thor126.jpg",
-        "small_url": "https://comicvine.gamespot.com/api/image/scale_small/2677628-thor126.jpg",
-        "super_url": "https://comicvine.gamespot.com/api/image/scale_large/2677628-thor126.jpg",
-        "thumb_url": "https://comicvine.gamespot.com/api/image/scale_avatar/2677628-thor126.jpg",
-        "tiny_url": "https://comicvine.gamespot.com/api/image/square_mini/2677628-thor126.jpg",
-        "original_url": "https://comicvine.gamespot.com/api/image/original/2677628-thor126.jpg",
-        "image_tags": "All Images,Thor #126"
-      },
-      "last_issue": {
-        "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-42828/",
-        "id": 42828,
-        "name": "Putting On the Bear Shirt",
-        "issue_number": "502"
-      },
-      "name": "Thor",
-      "publisher": {
-        "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-31/",
-        "id": 31,
-        "name": "Marvel"
-      },
-      "site_detail_url": "https://comicvine.gamespot.com/thor/4050-2294/",
-      "start_year": "1966"
-    },
-    {
       "aliases": null,
-      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-3857/",
-      "count_of_issues": 148,
-      "date_added": "2008-06-06 11:08:17",
-      "date_last_updated": "2019-06-01 13:16:22",
-      "deck": "Volume 3.",
-      "description": "<p>After the special <a href=\"https://www.comicvine.com/silver-surfer/4050-22808/\">one-shot Silver Surfer</a> that was listed as volume 2, this second ongoing Silver Surfer series began in 1987. The longest volume of the Surfer's history at 146 issues, we follow the Silver Surfer after his final escape from Earth and his return to the universe as a free spirit. The series lasted for 146 issues and was followed up with a mini-series named <a href=\"https://comicvine.gamespot.com/galactus-the-devourer/4050-9110/\">Galactus the Devourer</a> some months after this series ended.</p><h4>Collected Editions</h4><ul><li><a href=\"/essential-silver-surfer-volume-2/4000-161512/\" data-ref-id=\"4000-161512\">Essential Silver Surfer Vol. 2</a> (#1-18)</li><li><a href=\"/silver-surfer-epic-collection-freedom/4050-86124/\" data-ref-id=\"4050-86124\">Silver Surfer Epic Collection: Freedom</a> (#1-14)</li><li><a href=\"https://comicvine.gamespot.com/secret-invasion-rise-of-the-skrulls/4050-112466/\">Secret Invasion: Rise of the Skrulls</a> (#25)</li><li><a href=\"/the-silver-surfer-rebirth-of-thanos/4050-27365/\" data-ref-id=\"4050-27365\">Rebirth of Thanos</a> (#34-38)</li><li><a href=\"/infinity-gauntlet-omnibus/4050-75485/\" data-ref-id=\"4050-75485\">Infinity Gauntlet Omnibus</a> (#34-38)</li><li><a href=\"https://comicvine.gamespot.com/silver-surfer-epic-collection-thanos-quest/4050-111152/\">Silver Surfer Epic Collection: Thanos Quest</a> (#39-50)</li><li><a href=\"https://comicvine.gamespot.com/marvel-tales-thanos/4050-118253/\">Marvel Tales: Thanos</a> (#45)</li><li><a href=\"https://comicvine.gamespot.com/silver-surfer-epic-collection-the-infinity-gauntle/4050-101636/\" data-ref-id=\"4050-101636\">Silver Surfer Epic Collection: The Infinity Gauntlet</a> (#51-66)</li><li><a href=\"//www.comicvine.com/infinity-gauntlet-aftermath/4050-67059/\" data-ref-id=\"4050-67059\">Infinity Gauntlet: Aftermath</a> (#60-66)</li><li><a href=\"/doctor-strange-sorcerer-supreme-omnibus-2-volume-2/4000-675979/\" data-ref-id=\"4000-675979\">Doctor Strange, Sorcerer Supreme Omnibus Volume 2</a> (#67)</li><li><a href=\"https://comicvine.gamespot.com/the-infinity-war-omnibus/4050-118131/\">The Infinity War Omnibus</a> (#67-69)</li><li><a href=\"/the-silver-surfer-inner-demons/4050-27088/\" data-ref-id=\"4050-27088\">Inner Demons</a> (#123, #125-126)</li><li><a href=\"https://comicvine.gamespot.com/silver-surfer-epic-collection-inner-demons/4050-119305/\">Silver Surfer Epic Collection: Inner Demons</a> (#123-138 &amp; -1)</li></ul><h4>Non-U.S. Collected Editions</h4><ul><li><a href=\"https://comicvine.gamespot.com/avengers-collection-thanos/4050-119462/\">Avengers Collection: Thanos</a> (#44-45) (German)</li></ul>",
-      "first_issue": {
-        "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-28345/",
-        "id": 28345,
-        "name": "- - Free - -",
-        "issue_number": "1"
-      },
-      "id": 3857,
+      "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-10053/",
+      "cover_date": "1969-02-28",
+      "date_added": "2008-06-06 11:12:17",
+      "date_last_updated": "2017-12-15 09:21:23",
+      "deck": null,
+      "description": "<p><em>Loki, a master of deception, convinces Surfer that Thor is up to no good! An epic battle between two powerful forces commences!</em></p><p><b>1st story: \"The Good, The Bad, And The Uncanny!\"</b></p><p>Loki is plotting to kill his brother Thor when he comes across the Silver Surfer while in his astral form. First, he allows Thor to learn of his plot to kill him. Then he travels to Earth and attacks the Surfer. He soon learns the Surfer's true power and tells him that he has passed his test and he must help defend Asgard from Thor, who plans to take over. He also promises to let him free of Earth if he helps. The Surfer agrees and Loki leaves him at Asgard.</p><p>The Surfer reaches the dining hall where Thor is located and challenges him. Thor tells him they will talk over dinner and a gladiatorial contest. They seem to think that they should not be enemies but Loki is manipulating the situation. Loki controls one of the gladiators into attacking the Surfer in the name of Thor.</p><p>The Surfer and Thor begin their battle. Both have incredible power that continues to surprise the other. The Surfer gains the upper hand in the battle but soon realizes that his power has been augmented somehow by Loki and some of his actions may have been partially controlled. When Loki leaves his astral form he is no longer able to manipulate them and they talk it through. The Surfer realizes Thor was not using his full power because he knew of Loki's schemes.</p><p>Defeated once again, Loki transports the Surfer back to Earth and he remains once again trapped on the planet.</p><p><b>2nd Story: \"The Terror Of Tim Boo Ba\"</b></p><p>Reprinted from <a href=\"/amazing-adult-fantasy/4050-2043/\" data-ref-id=\"4050-2043\">Amazing Adult Fantasy</a> #9</p>",
+      "has_staff_review": false,
+      "id": 10053,
       "image": {
-        "icon_url": "https://comicvine.gamespot.com/api/image/square_avatar/25503-3857-28345-1-silver-surfer.jpg",
-        "medium_url": "https://comicvine.gamespot.com/api/image/scale_medium/25503-3857-28345-1-silver-surfer.jpg",
-        "screen_url": "https://comicvine.gamespot.com/api/image/screen_medium/25503-3857-28345-1-silver-surfer.jpg",
-        "screen_large_url": "https://comicvine.gamespot.com/api/image/screen_kubrick/25503-3857-28345-1-silver-surfer.jpg",
-        "small_url": "https://comicvine.gamespot.com/api/image/scale_small/25503-3857-28345-1-silver-surfer.jpg",
-        "super_url": "https://comicvine.gamespot.com/api/image/scale_large/25503-3857-28345-1-silver-surfer.jpg",
-        "thumb_url": "https://comicvine.gamespot.com/api/image/scale_avatar/25503-3857-28345-1-silver-surfer.jpg",
-        "tiny_url": "https://comicvine.gamespot.com/api/image/square_mini/25503-3857-28345-1-silver-surfer.jpg",
-        "original_url": "https://comicvine.gamespot.com/api/image/original/25503-3857-28345-1-silver-surfer.jpg",
+        "icon_url": "https://comicvine.gamespot.com/api/image/square_avatar/2403471-ss4.png",
+        "medium_url": "https://comicvine.gamespot.com/api/image/scale_medium/2403471-ss4.png",
+        "screen_url": "https://comicvine.gamespot.com/api/image/screen_medium/2403471-ss4.png",
+        "screen_large_url": "https://comicvine.gamespot.com/api/image/screen_kubrick/2403471-ss4.png",
+        "small_url": "https://comicvine.gamespot.com/api/image/scale_small/2403471-ss4.png",
+        "super_url": "https://comicvine.gamespot.com/api/image/scale_large/2403471-ss4.png",
+        "thumb_url": "https://comicvine.gamespot.com/api/image/scale_avatar/2403471-ss4.png",
+        "tiny_url": "https://comicvine.gamespot.com/api/image/square_mini/2403471-ss4.png",
+        "original_url": "https://comicvine.gamespot.com/api/image/original/2403471-ss4.png",
         "image_tags": "All Images"
       },
-      "last_issue": {
-        "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-96306/",
-        "id": 96306,
-        "name": "Fire in the Sky",
-        "issue_number": "146"
-      },
-      "name": "Silver Surfer",
-      "publisher": {
-        "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-31/",
-        "id": 31,
-        "name": "Marvel"
-      },
-      "site_detail_url": "https://comicvine.gamespot.com/silver-surfer/4050-3857/",
-      "start_year": "1987"
-    },
-    {
-      "aliases": "The All-New All-Different X-Men\r\nThe Uncanny X-Men",
-      "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-2133/",
-      "count_of_issues": 141,
-      "date_added": "2008-06-06 11:08:10",
-      "date_last_updated": "2019-09-10 07:54:35",
-      "deck": "Volume 1.",
-      "description": "<p>The comic that started it all for the X-Men. For the first 66 issues, the series starred the team of Cyclops, Marvel Girl, Angel, Beast, Iceman and Professor Xavier, with Havok and Polaris joining near the end of the run.</p><p>Unfortunately, due to falling sales and lack of interest for the comic, the series started publishing reprints from earlier adventures with issue #67. This kept on up to issue #93. With X-Men issue #94, the New X-Men team was brought into the comic after they had starred in their first adventure in <a href=\"//www.comicvine.com/giant-size-x-men-1-deadly-genesis/4000-14890/\" data-ref-id=\"4000-14890\"> Giant-Size X-Men</a> issue #1. Beginning with issue #114 the descriptive \"Uncanny\" was added to the cover treatment but it wasn't until issue #142 that the volume's official name was permanently changed to Uncanny X-Men. The series continues in <a href=\"/uncanny-x-men/4050-3092/\" data-ref-id=\"4050-3092\"><strong><em>The Uncanny X-Men</em></strong></a> with issue #142.</p><h4>Collected Editions</h4><ul><li><a href=\"/marvel-masterworks-the-x-men/4050-35213/\" data-ref-id=\"4050-35213\">Marvel Masterworks: X-Men</a>, Vol. 1 (#1-10)</li><li><a href=\"/xmen-epic-collection-children-of-the-atom/4050-79108/\" data-ref-id=\"4050-79108\">X-Men Epic Collection: Children of the Atom</a> (#1-23)</li><li><a href=\"https://comicvine.gamespot.com/x-men-adventures/4050-112834/\">X-Men Adventures</a> (#1 &amp; 19)</li><li><a href=\"https://comicvine.gamespot.com/x-men-we-are-the-x-men/4050-35334/\">X-Men: We Are the X-Men</a> (#1 &amp; 129)</li><li><a href=\"/kingsize-kirby/4050-83141/\" data-ref-id=\"4050-83141\">King-Size Kirby</a> (#9)</li><li>Marvel Masterworks: X-Men, Vol. 2 (#11-21)</li><li>Marvel Masterworks: X-Men, Vol. 3 (#22-31)</li><li><a href=\"https://comicvine.gamespot.com/xmen-epic-collection-lonely-are-the-hunted/4050-96317/\" data-ref-id=\"4050-96317\">X-Men Epic Collection: Lonely Are The Hunted</a> (#24-45)</li><li>Marvel Masterworks: X-Men, Vol. 4 (#32-42)</li><li><a href=\"https://comicvine.gamespot.com/decades-marvel-in-the-60s-spider-man-meets-the-mar/4050-117580/\">Decades: Marvel In the '60s: Spider-Man Meets the Marvel Universe</a> (#35)</li><li>Marvel Masterworks: X-Men, Vol. 5 (#43-53)</li><li><a href=\"/avengers-omnibus-2-volume-two/4000-482859/\" data-ref-id=\"4000-482859\">Avengers Omnibus Volume 2</a> (#45)</li><li><a href=\"https://comicvine.gamespot.com/avengers-epic-collection-masters-of-evil/4050-100962/\" data-ref-id=\"4050-100962\">Avengers Epic Collection: The Masters of Evil</a> (#45)</li><li><a href=\"https://comicvine.gamespot.com/x-men-epic-collection-the-sentinels-live/4050-115289/\">X-Men Epic Collection: The Sentinels Live</a> (#46-66)</li><li>Marvel Masterworks: X-Men, Vol. 6 (#54-66)</li><li><a href=\"https://comicvine.gamespot.com/x-men-by-roy-thomas-and-neal-adams-gallery-edition/4050-121265/\">X-Men by Roy Thomas &amp; Neal Adams Gallery Edition</a> (#56-57 (A Stories), 58-63 &amp; 65)</li><li><a href=\"/marvel-masterworks-the-uncanny-x-men/4050-30807/\" data-ref-id=\"4050-30807\">Marvel Masterworks: Uncanny X-Men</a>, Vol. 1 (#94-100)</li><li><a href=\"https://comicvine.gamespot.com/xmen-epic-collection-second-genesis/4050-100394/\" data-ref-id=\"4050-100394\">X-Men Epic Collection: Second Genesis</a> (#94-110)</li><li><a href=\"https://comicvine.gamespot.com/x-men-the-dark-phoenix-saga-omnibus/4050-112607/\">X-Men: The Dark Phoenix Saga Omnibus</a> (#97-105, 107-108 &amp; 125-138)</li><li>Marvel Masterworks: Uncanny X-Men, Vol. 2 (#101-110)</li><li><a href=\"https://comicvine.gamespot.com/alpha-flight-by-john-byrne-omnibus/4050-98560/\" data-ref-id=\"4050-98560\">Alpha Flight By John Byrne Omnibus</a> (#109, 120-121 &amp; 139-140)</li><li>Marvel Masterworks: Uncanny X-Men, Vol. 3 (#111-121)</li><li>Marvel Masterworks: Uncanny X-Men, Vol. 4 (#122-131)</li><li>Marvel Masterworks: Uncanny X-Men, Vol. 5 (#132-140)</li><li>Marvel Masterworks: Uncanny X-Men, Vol. 6 (#141-150)</li><li><a href=\"/x-men-proteus/4050-28480/\" data-ref-id=\"4050-28480\">X:Men: Proteus</a> (#125-128)</li><li><a href=\"/x-men-the-dark-phoenix-saga/4050-30096/\" data-ref-id=\"4050-30096\">X-Men: The Dark Phoenix Saga</a> (#129-137)</li><li><a href=\"https://comicvine.gamespot.com/x-men-milestones-dark-phoenix-saga/4050-119891/\">X-Men Milestones: Dark Phoenix Saga</a> (#129-137)</li><li><a href=\"/x-men-days-of-future-past/4050-34959/\" data-ref-id=\"4050-34959\">X-Men: Days of Future Past</a> (#138-141)</li></ul><h4>Non-U.S. Collected Editions</h4><ul><li><a href=\"https://comicvine.gamespot.com/coleccionable-marvel-heroes-15-la-patrulla-x-hijos/4000-612220/\" data-ref-id=\"4000-612220\">Coleccionable Marvel Héroes - La Patrulla-X: Hijos del átomo</a> (#1) (Spanish)</li><li><a href=\"/kingsize-kirby/4050-83141/\" data-ref-id=\"4050-83141\">King-Size Kirby</a> (#9) (Spanish)</li><li><a href=\"https://comicvine.gamespot.com/80-jahre-marvel-3-die-1960er-aufbruch-in-eine-neue/4000-713394/\">80 Jahre Marvel - Die 1960er: Aufbruch in eine neue Zeit </a>(#35) (German)</li><li><a href=\"https://comicvine.gamespot.com/coleccionable-marvel-heroes-21-la-patrulla-x-gradu/4000-612226/\">Coleccionable Marvel Héroes - La Patrulla-X: Graduación</a> (#56-66) (Spanish)</li><li><a href=\"https://comicvine.gamespot.com/coleccionable-marvel-heroes-56-alpha-flight-de-joh/4000-612264/\">Coleccionable Marvel Héroes - Alpha Flight de John Byrne</a> (#120-121 &amp; #139-140) (Spanish)</li><li><a href=\"https://comicvine.gamespot.com/coleccionable-marvel-heroes-4-la-patrulla-x-la-sag/4000-612206/\" data-ref-id=\"4000-612206\">Coleccionable Marvel Héroes - La Patrulla-X: La saga de Fénix Oscura</a> (#129-137) (Spanish)</li></ul>",
-      "first_issue": {
-        "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-6694/",
-        "id": 6694,
-        "name": "X-Men",
-        "issue_number": "1"
-      },
-      "id": 2133,
-      "image": {
-        "icon_url": "https://comicvine.gamespot.com/api/image/square_avatar/1355017-uxm_v1_001_01.jpg",
-        "medium_url": "https://comicvine.gamespot.com/api/image/scale_medium/1355017-uxm_v1_001_01.jpg",
-        "screen_url": "https://comicvine.gamespot.com/api/image/screen_medium/1355017-uxm_v1_001_01.jpg",
-        "screen_large_url": "https://comicvine.gamespot.com/api/image/screen_kubrick/1355017-uxm_v1_001_01.jpg",
-        "small_url": "https://comicvine.gamespot.com/api/image/scale_small/1355017-uxm_v1_001_01.jpg",
-        "super_url": "https://comicvine.gamespot.com/api/image/scale_large/1355017-uxm_v1_001_01.jpg",
-        "thumb_url": "https://comicvine.gamespot.com/api/image/scale_avatar/1355017-uxm_v1_001_01.jpg",
-        "tiny_url": "https://comicvine.gamespot.com/api/image/square_mini/1355017-uxm_v1_001_01.jpg",
-        "original_url": "https://comicvine.gamespot.com/api/image/original/1355017-uxm_v1_001_01.jpg",
-        "image_tags": "All Images"
-      },
-      "last_issue": {
-        "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-20988/",
-        "id": 20988,
-        "name": "Days of Future Past",
-        "issue_number": "141"
-      },
-      "name": "The X-Men",
-      "publisher": {
-        "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-31/",
-        "id": 31,
-        "name": "Marvel"
-      },
-      "site_detail_url": "https://comicvine.gamespot.com/the-x-men/4050-2133/",
-      "start_year": "1963"
+      "issue_number": "4",
+      "name": "The Good, The Bad, And The Uncanny!",
+      "site_detail_url": "https://comicvine.gamespot.com/the-silver-surfer-4-the-good-the-bad-and-the-uncan/4000-10053/",
+      "store_date": null,
+      "volume": {
+        "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-2411/",
+        "id": 2411,
+        "name": "The Silver Surfer",
+        "site_detail_url": "https://comicvine.gamespot.com/the-silver-surfer/4050-2411/"
+      }
     }
   ],
   "wishlist": []

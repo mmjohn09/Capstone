@@ -6,6 +6,7 @@ export default class CollectionList extends Component {
 
     state = {
         volumes: [],
+        issues: [],
         entries: [],
         isLoaded: false,
     }
@@ -40,13 +41,9 @@ export default class CollectionList extends Component {
                 <div className='row hidden-md-up'>
                     {this.state.entries.map(entry => (
                         <div className='card-block' key={entry.id}>
-                            <img className='card-img-top' src={entry.image.small_url} />
+                            <img className='card-img-top' src={entry.image.small_url} alt="" />
                             <div className='card-body'>
                                 <h2 className='card-title'>{entry.name}</h2>
-                                <p className='card-content'>
-                                    Number of Issues: {entry.count_of_issues}<br></br>
-                                    Publisher: {entry.publisher.name}<br></br>
-                                    First Published: {entry.start_year}</p>
                                 <div>
                                     <span>Condition:<select>
                                         <option value="excellent">Excellent</option>

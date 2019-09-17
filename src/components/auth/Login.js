@@ -34,7 +34,7 @@ class Login extends Component {
         return (
             <form className="login-form" onSubmit={this.handleLogin}>
                 <fieldset>
-                    <div className="formgrid">
+                    <div className="formgrid-login">
                         <input onChange={this.handleFieldChange} type="email"
                             id="email"
                             placeholder="peterparker@mail.com"
