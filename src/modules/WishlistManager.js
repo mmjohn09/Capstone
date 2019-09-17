@@ -15,5 +15,12 @@ export default {
     getAllWishlistItems(userId) {
         return fetch(`${remoteURL}/wishlist?userId=${userId}`)
             .then(result => result.json())
+    },
+
+    deleteWishlistItem(id) {
+        return fetch(`${remoteURL}/wishlist/${id}`, {
+            method: "DELETE"
+        })
+            .then(result => result.json())
     }
 }

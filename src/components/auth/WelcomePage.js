@@ -1,18 +1,18 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
 import "../SuperShelf.css"
+import "./WelcomePage.css"
+
 
 
 class Welcome extends Component {
     render() {
         return (
             <>
-                <div className="card">
-                    <p className ="center">Please Log In Below</p>
-                </div>
+            <h1 className='app-name'>Comic Nook</h1>
                 <div className="welcome--btns">
-                <Link to="/Login"><button className="login--btn">Login</button></Link>
-                <Link to="/Registration"><button className="register--btn">Register New Account</button></Link> 
+                <Link to="/Login"><button className="login--btn">LOGIN</button></Link><br></br>
+                <Link to="/Registration"><button className="register--btn">REGISTER</button></Link> 
                 </div>
             </>
         );

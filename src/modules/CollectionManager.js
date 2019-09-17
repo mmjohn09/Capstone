@@ -22,5 +22,10 @@ export default {
             method: "DELETE"
         })
             .then(result => result.json())
-    }
+    },
+
+    getIssueByVolume(volumeId) {
+        return fetch(`https://cors-anywhere.herokuapp.com/http://comicvine.gamespot.com/api/issues/?api_key=29f523a340e2f41efd60b3cbcfb936da5fbba4d2&filter=volume:${volumeId}&format=json`)
+          .then(result => result.json())
+      },
 }

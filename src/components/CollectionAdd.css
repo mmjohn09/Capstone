@@ -16,13 +16,14 @@
 
 .card-block {
     width: 230px;
+    margin: inherit;
 }
 
 .row {
     margin: 15px;
 }
 
-fieldset {
+.search-field {
     margin: 15px;
 }
 

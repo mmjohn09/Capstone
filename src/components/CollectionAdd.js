@@ -72,7 +72,7 @@ class CollectionAdd extends Component {
     return (
       <>
         <div>
-          <fieldset>
+          <fieldset className="search-field">
             <h5>Search Volumes</h5>
             <div className="formgrid">
               <input onChange={this.handleFieldChange} type="text"

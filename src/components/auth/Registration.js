@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import UserManager from "../../modules/UserManager";
+import "./WelcomePage.css"
 
 class Registration extends Component {
 
@@ -56,34 +57,33 @@ class Registration extends Component {
             return (
                 <form>
                     <fieldset>
-                        <h3>Register</h3>
                         <div className="formgrid">
                             <input onChange={this.handleFieldChange} type="text"
                                 id="username"
                                 placeholder="Username"
                                 required="" autoFocus="" />
-                            <label htmlFor="inputUsername">Username</label>
+                            <label htmlFor="inputUsername"></label>
 
                             <input onChange={this.handleFieldChange} type="email"
                                 id="email"
                                 placeholder="Email address"
                                 required="" />
-                            <label htmlFor="inputEmail">Email address</label>
+                            <label htmlFor="inputEmail"></label>
 
                             <input onChange={this.handleFieldChange} type="password"
                                 id="password"
                                 placeholder="Password"
                                 required="" />
-                            <label htmlFor="inputPassword">Password</label>
+                            <label htmlFor="inputPassword"></label>
 
                             <input onChange={this.handleFieldChange} type="password"
                                 id="confirmPassword"
                                 placeholder="Confirm Password"
                                 required="" />
-                            <label htmlFor="inputPassword">Confirm Password</label>
+                            <label htmlFor="inputPassword"></label>
                         </div>
-                        <button onClick={this.createNewUser} type="submit">
-                            Submit
+                        <button className='submit-btn' onClick={this.createNewUser} type="submit">
+                            SUBMIT
                     </button>
                     </fieldset>
                 </form>
