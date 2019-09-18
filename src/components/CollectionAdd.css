@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
-/* @font-face {
-    font-family: 'adam_warren_proregular';
-    src: url('adamwarrenpro-webfont.woff2') format('woff2'),
-         url('adamwarrenpro-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-} */
 body {
     background-image: url('https://c.wallhere.com/photos/c9/f4/1920x886_px_DC_Comics_Dr_Manhattan_Watchmen-737776.jpg!d')
 }
@@ -30,8 +23,6 @@ h5 {
     border-radius: 2px;
     border-width: 2px;
     margin-left: 40%;
-    /* background-color: black;
-    color: white; */
 }
 
 button:hover {
@@ -71,27 +62,6 @@ button:hover {
     color: white;
 }
 
-
-/* .card-body {
-    height: 315px;
-    margin-bottom: 2em;
-    flex: 0 1 24%;
-} */
-
-/* .card-deck-wrapper {
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 10px;
-}
-
-
-
-/* .card-content {
-    font-family: 'comic', 'arial', 'sans-serif';
-    margin: 3px;
-} */
-
-
-
 .card-container {
     display: grid;
     justify-content: space-evenly;
@@ -105,8 +75,6 @@ button:hover {
     font-size: 12pt;
     opacity: .9;
     transition: 0.3s;
-    /* background-color: black;
-    color: white; */
     border-radius: 2px;
     border-width: 2px;
 }

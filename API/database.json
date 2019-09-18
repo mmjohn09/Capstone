@@ -27,27 +27,69 @@
   ],
   "collection": [
     {
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/2403471-ss4.png",
-      "title": "The Good, The Bad, And The Uncanny!",
-      "publishDate": "1969-02-28",
+      "title": "Unmasked!",
+      "volume": "Iron Man",
+      "issueNumber": "11",
+      "publishDate": "1969-03-01",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/9145-2407-10100-1-iron-man.jpg",
       "userId": 1,
-      "id": 1
+      "id": 2
     },
     {
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/2203366-01.jpg",
-      "title": null,
-      "publishDate": "1993-10-31",
-      "userId": 4,
-      "id": 2
+      "title": "Captives of the Controller",
+      "volume": "Iron Man",
+      "issueNumber": "13",
+      "publishDate": "1969-05-01",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/4018638-im13nm9m044.jpg",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "title": "Of Beasts and Men!",
+      "volume": "Iron Man",
+      "issueNumber": "16",
+      "publishDate": "1969-08-01",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/9387-2407-10359-1-iron-man.jpg",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "title": "The Night Phantom Walks!",
+      "volume": "Iron Man",
+      "issueNumber": "14",
+      "publishDate": "1969-06-01",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/9296-2407-10263-1-iron-man.jpg",
+      "userId": 1,
+      "id": 5
     }
   ],
   "wishlist": [
     {
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/2203367-02.jpg",
-      "title": "Mangled!",
-      "publishDate": "1993-11-01",
-      "userId": 4,
+      "title": "Once More...The Mandarin!",
+      "volume": "Iron Man",
+      "issueNumber": "10",
+      "publishDate": "1969-02-01",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/3542888-im10nm92m053.jpg",
+      "userId": 1,
       "id": 1
+    },
+    {
+      "title": "The Coming of the Controller",
+      "volume": "Iron Man",
+      "issueNumber": "12",
+      "publishDate": "1969-04-01",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/9195-2407-10155-1-iron-man.jpg",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "title": "The Beginning of the End",
+      "volume": "Iron Man",
+      "issueNumber": "17",
+      "publishDate": "1969-09-30",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/4036206-im17vf8m054.jpg",
+      "userId": 1,
+      "id": 3
     }
   ]
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import WishlistManager from '../modules/WishlistManager'
 import './CollectionAdd.css'
+import { Link } from "react-router-dom";
 
 export default class WishlistList extends Component {
 
@@ -19,10 +20,10 @@ export default class WishlistList extends Component {
             })
     }
 
-    deleteWishlistItem = id => {
+    deleteWishlistItem = (evt, id) => {
         WishlistManager.deleteWishlistItem(id)
             .then(() => {
-                WishlistManager.getAllWishlistItems(this.loggedInUser)
+                WishlistManager.getAllWishlistItems(this.activeUser)
                     .then((newWishlist) => {
                         this.setState({
                             wishlist: newWishlist
@@ -39,11 +40,16 @@ export default class WishlistList extends Component {
                         <div className='card-block' key={wishlist.id}>
                             <img className='card-img-top' src={wishlist.coverImg} alt="" />
                             <div className='card-body'>
-                                {/* <h2 className='card-title'>{entry.name}</h2> */}
                                 <div>
-                                    <div><button type="button" className='move-to-collection-btn'>Move to Collection</button></div>
-                                    <div><button type="button" className='delete-btn' onClick={this.deleteWishlistItem}>Delete</button></div>
-                                    <div><button type="button" className='details-btn'>Details</button></div>
+                                    <div>
+                                        <button type="button" className='move-btn'>Move to Collection</button>
+                                    </div>
+                                    <div>
+                                        <Link to={`/wishlist/${wishlist.id}`}><button type="button" className='details-btn'>Details</button></Link>
+                                    </div>
+                                    <div>
+                                        <button type="button" className='delete-btn' onClick={(evt)=> this.deleteWishlistItem(evt, wishlist.id)}>Delete</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>

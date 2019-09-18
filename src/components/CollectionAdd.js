@@ -75,9 +75,10 @@ class CollectionAdd extends Component {
                 <img className='card-img-top' src={volume.image.small_url} alt="" />
                 <div className='card-body'>
                   <h3 className='card-title'>{volume.name}</h3>
-                  {/* <p className='card-content'>
-                    Publisher: {volume.publisher.name}</p> */}
-                  <Link to={`/volumes/${volume.id}`}><button className='volume-details-btn' id={`searchResultImg--${volume.id}`}>See All Issues</button></Link>
+                  <div className='card-btns'>
+                    <Link to={`/volumes/${volume.id}`}><button className='volume-details-btn' id={`searchResultImg--${volume.id}`}>See All Issues</button></Link>
+                  </div>
+
                 </div>
               </div>
             ))}

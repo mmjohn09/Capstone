@@ -8,6 +8,7 @@ import AddToCollectionView from './AddToCollectionView';
 import CollectionView from './CollectionView';
 import WishlistView from './WishlistView';
 import IssueDetail from './IssueDetail'
+import WishlistDetail from './WishlistIssueDetail'
 
 
 export default class ApplicationViews extends Component {
@@ -36,7 +37,6 @@ export default class ApplicationViews extends Component {
 				}} />
 
 				<Route path="/collection/:collectionId(\d+)" render={(props) => {
-					// Pass the animalId to the AnimalDetailComponent
 					return <IssueDetail {...props} collectionId={parseInt(props.match.params.collectionId)} />
 				}} />
 
@@ -47,6 +47,10 @@ export default class ApplicationViews extends Component {
 					} else {
 						return <Redirect to='/welcome' />
 					}
+				}} />
+
+				<Route path="/wishlist/:wishlistId(\d+)" render={(props) => {
+					return <WishlistDetail {...props} wishlistId={parseInt(props.match.params.wishlistId)} />
 				}} />
 
 				<Route exact path='/search' render={props => {

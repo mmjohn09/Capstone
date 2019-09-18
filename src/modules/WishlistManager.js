@@ -22,5 +22,10 @@ export default {
             method: "DELETE"
         })
             .then(result => result.json())
-    }
+    },
+
+    getWishlistIssue(id) {
+        return fetch(`${remoteURL}/wishlist/${id}`)
+          .then(result => result.json())
+      }
 }

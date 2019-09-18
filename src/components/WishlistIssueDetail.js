@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import CollectionManager from '../modules/CollectionManager';
-import './IssueDetails.css'
+import WishlistManager from '../modules/WishlistManager';
+import './WishlistIssueDetail.css'
 
 
-class IssueDetail extends Component {
+class WishlistDetail extends Component {
 
     state = {
         title: "",
@@ -16,15 +16,15 @@ class IssueDetail extends Component {
     }
 
     componentDidMount() {
-        CollectionManager.getCollectionIssue(this.props.collectionId)
-            .then((collection) => {
+        WishlistManager.getWishlistIssue(this.props.wishlistId)
+            .then((wishlist) => {
                 this.setState({
-                    title: collection.title,
-                    volume: collection.volume,
-                    issueNumber: collection.issueNumber,
-                    description: collection.description,
-                    publishDate: collection.publishDate,
-                    coverImg: collection.coverImg
+                    title: wishlist.title,
+                    volume: wishlist.volume,
+                    issueNumber: wishlist.issueNumber,
+                    description: wishlist.description,
+                    publishDate: wishlist.publishDate,
+                    coverImg: wishlist.coverImg
                 });
             });
     }
@@ -46,5 +46,5 @@ class IssueDetail extends Component {
     }
 }
 
-export default IssueDetail;
+export default WishlistDetail;
 

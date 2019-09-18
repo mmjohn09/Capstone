@@ -13,7 +13,6 @@ export default class CollectionList extends Component {
 
     activeUser = parseInt(sessionStorage.getItem("activeUser"))
     componentDidMount() {
-        //getAll from CollectionManager and hang on to that data; put it in state
         CollectionManager.getAllCollectionItems(this.activeUser)
             .then((collection) => {
                 this.setState({
@@ -22,10 +21,10 @@ export default class CollectionList extends Component {
             })
     }
 
-    deleteCollectionItem = id => {
+    deleteCollectionItem = (evt, id) => {
         CollectionManager.deleteCollectionItem(id)
             .then(() => {
-                CollectionManager.getAllCollectionItems(this.loggedInUser)
+                CollectionManager.getAllCollectionItems(this.activeUser)
                     .then((newCollection) => {
                         this.setState({
                             collection: newCollection
@@ -43,8 +42,9 @@ export default class CollectionList extends Component {
                             <img className='card-img-top' src={collection.coverImg} alt="" />
                             <div className='card-body'>
                                 <div>
-                                    <div className='card-btns'><button type="button" className='delete-btn' onClick={this.deleteCollectionItem}>Delete</button>
-                                    <Link to={`/collection/${collection.id}`}><button type='button' className='details-btn'>Details</button></Link></div>
+                                    <div className='card-btns'>
+                                        <Link to={`/collection/${collection.id}`}><button type='button' className='details-btn'>Details</button></Link></div>
+                                    <button type="button" className='delete-btn' onClick={(evt)=> this.deleteCollectionItem(evt, collection.id)}>Delete</button>
                                 </div>
                             </div>
                         </div>

@@ -29,6 +29,7 @@ class VolumeDetail extends Component {
         const collectionObject = {
             title: selectedIssueObject.name,
             volume: selectedIssueObject.volume.name,
+            issueNumber: selectedIssueObject.issue_number,
             publishDate: selectedIssueObject.cover_date,
             coverImg: selectedIssueObject.image.small_url,
             userId: parseInt(sessionStorage.getItem("activeUser"))
@@ -46,6 +47,7 @@ class VolumeDetail extends Component {
         const wishlistObject = {
             title: selectedIssueObject.name,
             volume: selectedIssueObject.volume.name,
+            issueNumber: selectedIssueObject.issue_number,
             publishDate: selectedIssueObject.cover_date,
             coverImg: selectedIssueObject.image.small_url,
             userId: parseInt(sessionStorage.getItem("activeUser"))
