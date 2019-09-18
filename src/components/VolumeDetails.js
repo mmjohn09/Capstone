@@ -27,7 +27,7 @@ class VolumeDetail extends Component {
         const selectedIssueObject = this.state.issues.find(issue => {
           return issue.id === id
         })
-        const collectionEntry = {
+        const collectionObject = {
           coverImg: this.state.small_url,
           title: this.state.name,
           publisher: this.state.publisher,
@@ -36,7 +36,8 @@ class VolumeDetail extends Component {
         }
     
         CollectionManager.createNewCollectionItem(selectedIssueObject)
-          .then(() => this.props.history.push("/collection"))
+        //   .then(() => this.props.history.push("/collection"))
+            .then(() => alert('Issue successfully added to your collection!'))
       }
 
       createNewWishlistItem = (evt, id) => {
@@ -44,7 +45,7 @@ class VolumeDetail extends Component {
         const selectedIssueObject = this.state.issues.find(issue => {
           return issue.id === id
         })
-        const wishlistEntry = {
+        const wishlistObject = {
           coverImg: this.state.small_url,
           title: this.state.name,
           publisher: this.state.publisher,
@@ -53,11 +54,12 @@ class VolumeDetail extends Component {
         }
     
         WishlistManager.createNewWishlistItem(selectedIssueObject)
-          .then(() => this.props.history.push("/wishlist"))
+          .then(() => alert('Issue successfully added to your wishlist!'))
       }
 
     render() {
         return (
+            <>
             <div className="card-container">
                 <div className="row hidden-md-up">
                     {this.state.issues.map(issue => (
@@ -65,16 +67,17 @@ class VolumeDetail extends Component {
                             <img className='card-img-top' src={issue.image.small_url} alt="" />
                             <div className='card-body'>
                                 <h2 className='card-title'>Issue #{issue.issue_number} <br></br>{issue.name}</h2>
+                                <p>{issue.description}</p>
                             </div>
                             <div>
                                 <button type="button" onClick={(evt) => this.createNewCollectionItem(evt, issue.id)}>Add to Collection</button>
                                 <button type="button" onClick={(evt) => this.createNewWishlistItem(evt, issue.id)}>Add to Wishlist</button>
                             </div>
-
                         </div>
                     ))}
                 </div>
             </div>
+            </>
         );
     }
 }

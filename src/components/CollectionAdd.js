@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import './CollectionAdd.css'
-// import CollectionManager from '../modules/CollectionManager';
 import { Link } from "react-router-dom"
-
-
 
 class CollectionAdd extends Component {
 
@@ -53,47 +50,36 @@ class CollectionAdd extends Component {
       })
   }
 
-  
-
   render() {
     return (
       <>
-
         <div>
           <fieldset className="search-field">
-            <h5>Add to your lists</h5>
+            <h5>Add to your collection</h5>
             <div className="formgrid">
               <input onChange={this.handleFieldChange} type="text"
                 id="searchInput"
-                placeholder="e.g. Superman"
+                placeholder="e.g. Superman, Hulk, Batman"
                 required="" autoFocus="" />
-              <label htmlFor="searchInput"></label>
-
             </div>
             <button className="search-btn" type="button"
               onClick={this.getVolumeByName}>
-                SEARCH
-          </button>
+              SEARCH
+            </button>
           </fieldset>
         </div>
-
         <div className='card-container'>
           <div className="row hidden-md-up">
             {this.state.volumes.map(volume => (
-              
-                <div className="card-block" key={volume.id}>
-                  <img className='card-img-top' src={volume.image.small_url} alt="" />
-                  <div className='card-body'>
-                    <p className='card-title'>{volume.name}</p>
-                    <p className='card-content'>
-                      Number of Issues: {volume.count_of_issues}<br></br>
-                      Publisher: {volume.publisher.name}<br></br>
-                      First Published: {volume.start_year}</p>
-
-                      <Link to={`/volumes/${volume.id}`}><button className='volume-details-btn'id={`searchResultImg--${volume.id}`}>See All Issues</button></Link>
-                    
-                  </div>
+              <div className="card-block" key={volume.id}>
+                <img className='card-img-top' src={volume.image.small_url} alt="" />
+                <div className='card-body'>
+                  <h3 className='card-title'>{volume.name}</h3>
+                  {/* <p className='card-content'>
+                    Publisher: {volume.publisher.name}</p> */}
+                  <Link to={`/volumes/${volume.id}`}><button className='volume-details-btn' id={`searchResultImg--${volume.id}`}>See All Issues</button></Link>
                 </div>
+              </div>
             ))}
           </div>
         </div>

@@ -1,16 +1,14 @@
 import React, { Component } from "react";
-// import Navbar from "./nav/Navbar"
 import ApplicationViews from "./ApplicationViews";
 
-class SuperShelf extends Component {
+class ComicNook extends Component {
   render() {
     return (
       <>
-        {/* <Navbar/> */}
         <ApplicationViews />
       </>
     );
   }
 }
 
-export default SuperShelf;
+export default ComicNook;

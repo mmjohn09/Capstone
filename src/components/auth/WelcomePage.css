@@ -7,6 +7,7 @@ body {
 
 .login--btn {
     margin: 3px;
+    height: 40px;
     width: 200px;
     font-family: 'Oswald', 'arial', 'sans-serif';
     font-size: 18pt;
@@ -20,7 +21,7 @@ body {
 
 .register--btn {
     width: 200px;
-    height: 43px;
+    height: 40px;
     margin: 3px;
     font-family: 'Oswald', 'arial', 'sans-serif';
     font-size: 18pt;
@@ -29,7 +30,7 @@ body {
 }
 
 .welcome--btns {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -67,7 +68,7 @@ input {
 
 .login-btn {
     width: 300px;
-    height: 41px;
+    height: 40px;
     font-family: 'Oswald', 'arial', 'sans-serif';
     font-size: 18pt;
     margin-left: 40%;
@@ -82,7 +83,7 @@ input {
 .submit-btn {
     margin-left: 40%;
     width: 300px;
-    height: 41px;
+    height: 40px;
     /* background-color: black;
     color: white; */
     font-size: 18pt;
@@ -109,7 +110,7 @@ input {
 .enter-btn {
     margin-left: 40%;
     width: 300px;
-    height: 41px;
+    height: 40px;
     /* background-color: black;
     color: white; */
     font-size: 18pt;

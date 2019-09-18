@@ -47,7 +47,7 @@ class Registration extends Component {
 
                     // Create the user and redirect user to news
                     UserManager.createNewUser(user)
-                        .then(() => this.props.history.push("/MyCollection"));
+                        .then(() => this.props.history.push("/search"));
                 }
             })
         }

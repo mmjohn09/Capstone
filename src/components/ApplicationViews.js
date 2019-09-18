@@ -1,49 +1,60 @@
-import { Route, withRouter, Redirect } from "react-router-dom"
-import React, { Component } from "react";
-import Welcome from './auth/WelcomePage'
-import Registration from './auth/Registration'
-import Login from './auth/Login'
-import TitleSearch from './CollectionAdd'
-import VolumeDetail from './VolumeDetails'
-import CollectionList from "./CollectionList";
-
-
+import { Route, withRouter, Redirect } from 'react-router-dom';
+import React, { Component } from 'react';
+import Welcome from './auth/WelcomePage';
+import Registration from './auth/Registration';
+import Login from './auth/Login';
+import VolumeDetail from './VolumeDetails';
+import WishlistList from './WishlistList';
+import AddToCollectionView from './AddToCollectionView';
+import CollectionView from './CollectionView';
+import WishlistView from './WishlistView';
 
 export default class ApplicationViews extends Component {
-        isAuthenticated = () => sessionStorage.getItem("credentials") !== null
-        render() {
-                return (
-                        <>
+	isAuthenticated = () => sessionStorage.getItem("activeUser") !== null
+	render() {
+		return (
+			<>
+				<Route exact path='/welcome' render={props => {
+					return <Welcome {...props} />
+				}} />
 
-                                <Route exact path='/welcome' render={props => {
-                                        return <Welcome {...props} />
-                                }} />
+				<Route exact path='/registration' render={props => {
+					return <Registration {...props} />
+				}} />
 
-                                <Route exact path='/registration' render={props => {
-                                        return <Registration {...props} />
-                                }} />
+				<Route exact path='/login' render={props => {
+					return <Login {...props} />
+				}} />
 
-                                <Route exact path='/login' render={props => {
-                                        return <Login {...props} />
-                                }} />
+				<Route exact path='/collection' render={props => {
+					if (this.isAuthenticated()) {
+						return <CollectionView {...props} />
+					} else {
+						return <Redirect to='/welcome' />
+					}
+				}} />
 
-                                <Route exact path='/collection' render={props => {
-                                        return <CollectionList {...props} />
-                                }} />
+				<Route exact path='/wishlist' render={props => {
+					if (this.isAuthenticated()) {
+						return <WishlistView {...props} />
+					} else {
+						return <Redirect to='/welcome' />
+					}
+				}} />
 
-                                {/* <Route exact path='/wishlist/' render={props => {
-                                        return <WishlistList {...props} />
-                                }} /> */}
+				<Route exact path='/search' render={props => {
+					if (this.isAuthenticated()) {
+						return <AddToCollectionView {...props} />
+					} else {
+						return <Redirect to='/welcome' />
+					}
+				}} />
 
-                                <Route exact path='/search' render={props => {
-                                        return <TitleSearch {...props} />
-                                }} />
-                              
-                                <Route path="/volumes/:volumeId(\d+)" render={(props) => {
-                                        // Pass the VolumeId to the VolumeDetailComponent
-                                        return <VolumeDetail {...props} volumeId={parseInt(props.match.params.volumeId)} />
-                                }} /> }
-                        </>
-                )
-        }
+				<Route path='/volumes/:volumeId(\d+)' render={props => {
+					return <VolumeDetail {...props} volumeId={parseInt(props.match.params.volumeId)} />
+				}} />
+			</>
+		)
+	}
 }
+

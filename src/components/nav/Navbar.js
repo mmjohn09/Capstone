@@ -1,29 +1,23 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom"
-import './Navbar.css'
-
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 class Navbar extends Component {
-
   render() {
-
     return (
-      <header>
-        {/* <h1 className="site-title">Super Shelf<br /></h1> */}
-        <nav className='navbar navbar-default'>
-          <div className='container-fluid'>
-            <div className='navbar-header'>
-              <ul className="container">
-                <li><Link className="nav-link" to="/">Home</Link></li>
-                <li><Link className="nav-link" to="/collection">My Collection</Link></li>
-                <li><Link className="nav-link" to="/wishlist">My Wishlist</Link></li>
-                {/* <li><Link className="nav-link" to="/messages">Messages</Link></li> */}
-                <li><Link className="nav-link" to="/search">Search</Link></li>
-              </ul>
-            </div>
+      <>
+        <nav className='home'>
+          <div><Link className='nav-home' to='/'>Comic Nook</Link></div>
+          <div className='navbar'>
+            <ul className='container'>
+              <li><Link className='nav-link' to='/collection'>My Collection</Link></li>
+              <li><Link className='nav-link' to='/wishlist'>My Wishlist</Link></li>
+              <li><Link className='nav-link' to='/search'>Search</Link></li>
+              <li><Link className='nav-link' to='/welcome'><button className='logout-btn' onClick={() => sessionStorage.clear()}>Log Out</button></Link></li>
+            </ul>
           </div>
         </nav>
-      </header>
+      </>
     )
   }
 }

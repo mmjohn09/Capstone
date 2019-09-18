@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from "react-router-dom"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SuperShelf from './components/SuperShelf';
+import ComicNook from './components/ComicNook';
 
 ReactDOM.render(
     <Router>
-        <SuperShelf />
+        <ComicNook />
     </Router>
     , document.getElementById('root'));

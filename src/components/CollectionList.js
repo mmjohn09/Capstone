@@ -45,13 +45,14 @@ export default class CollectionList extends Component {
                             <div className='card-body'>
                                 <h2 className='card-title'>{entry.name}</h2>
                                 <div>
-                                    <span>Condition:<select>
+                                    {/* <span>Condition:<select>
                                         <option value="excellent">Excellent</option>
                                         <option value="good">Good</option>
                                         <option value="fair">Fair</option>
                                         <option value="poor">Poor</option>
-                                    </select></span>
-                                    <div><button type="button" className='glyphicon glyphicon-trash' onClick={this.deleteCollectionItem}>Delete</button></div>
+                                    </select></span> */}
+                                    <div className='card-btns'><button type="button" className='delete-btn' onClick={this.deleteCollectionItem}>Delete</button>
+                                    <button type='button' className='details-btn'>Details</button></div>
                                 </div>
                             </div>
                         </div>
