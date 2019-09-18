@@ -5,18 +5,16 @@ import './CollectionAdd.css'
 export default class WishlistList extends Component {
 
     state = {
-        volumes: [],
-        issues: [],
-        entries: [],
+        wishlist: [],
         isLoaded: false,
     }
 
     activeUser = parseInt(sessionStorage.getItem("activeUser"))
     componentDidMount() {
         WishlistManager.getAllWishlistItems(this.activeUser)
-            .then((entries) => {
+            .then((wishlist) => {
                 this.setState({
-                    entries: entries
+                    wishlist: wishlist
                 })
             })
     }
@@ -27,25 +25,25 @@ export default class WishlistList extends Component {
                 WishlistManager.getAllWishlistItems(this.loggedInUser)
                     .then((newWishlist) => {
                         this.setState({
-                            entries: newWishlist
+                            wishlist: newWishlist
                         })
                     })
             })
     }
 
     render() {
-
         return (
             <div className='card-container'>
                 <div className='row hidden-md-up'>
-                    {this.state.entries.map(entry => (
-                        <div className='card-block' key={entry.id}>
-                            <img className='card-img-top' src={entry.image.small_url} alt="" />
+                    {this.state.wishlist.map(wishlist => (
+                        <div className='card-block' key={wishlist.id}>
+                            <img className='card-img-top' src={wishlist.coverImg} alt="" />
                             <div className='card-body'>
-                                <h2 className='card-title'>{entry.name}</h2>
+                                {/* <h2 className='card-title'>{entry.name}</h2> */}
                                 <div>
-                                    
-                                    <div><button type="button" className='glyphicon glyphicon-trash' onClick={this.deleteWishlistItem}>Delete</button></div>
+                                    <div><button type="button" className='move-to-collection-btn'>Move to Collection</button></div>
+                                    <div><button type="button" className='delete-btn' onClick={this.deleteWishlistItem}>Delete</button></div>
+                                    <div><button type="button" className='details-btn'>Details</button></div>
                                 </div>
                             </div>
                         </div>
@@ -55,5 +53,6 @@ export default class WishlistList extends Component {
         )
     }
 }
+
 
 

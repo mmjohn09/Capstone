@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.card-img {
+    width: 250px;
+    height: 350px;
+    float: left;
+}
+
+.publish-date {
+    font-family: 'oswald','arial','sans-serif';
+    font-size: 14pt;
+    color: white;
+}

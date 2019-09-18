@@ -6,7 +6,6 @@ import './VolumeDetails.css'
 class VolumeDetail extends Component {
     state = {
         issues: [],
-        volumes: [],
         name: ""
     }
 
@@ -25,58 +24,56 @@ class VolumeDetail extends Component {
     createNewCollectionItem = (evt, id) => {
         evt.preventDefault()
         const selectedIssueObject = this.state.issues.find(issue => {
-          return issue.id === id
+            return issue.id === id
         })
         const collectionObject = {
-          coverImg: this.state.small_url,
-          title: this.state.name,
-          publisher: this.state.publisher,
-          publishDate: this.state.start_year,
-          userId: parseInt(sessionStorage.getItem("activeUser"))
+            title: selectedIssueObject.name,
+            volume: selectedIssueObject.volume.name,
+            publishDate: selectedIssueObject.cover_date,
+            coverImg: selectedIssueObject.image.small_url,
+            userId: parseInt(sessionStorage.getItem("activeUser"))
         }
-    
-        CollectionManager.createNewCollectionItem(selectedIssueObject)
-        //   .then(() => this.props.history.push("/collection"))
-            .then(() => alert('Issue successfully added to your collection!'))
-      }
 
-      createNewWishlistItem = (evt, id) => {
+        CollectionManager.createNewCollectionItem(collectionObject)
+            .then(() => alert('Issue successfully added to your collection!'))
+    }
+
+    createNewWishlistItem = (evt, id) => {
         evt.preventDefault()
         const selectedIssueObject = this.state.issues.find(issue => {
-          return issue.id === id
+            return issue.id === id
         })
         const wishlistObject = {
-          coverImg: this.state.small_url,
-          title: this.state.name,
-          publisher: this.state.publisher,
-          publishDate: this.state.start_year,
-          userId: parseInt(sessionStorage.getItem("activeUser"))
+            title: selectedIssueObject.name,
+            volume: selectedIssueObject.volume.name,
+            publishDate: selectedIssueObject.cover_date,
+            coverImg: selectedIssueObject.image.small_url,
+            userId: parseInt(sessionStorage.getItem("activeUser"))
         }
-    
-        WishlistManager.createNewWishlistItem(selectedIssueObject)
-          .then(() => alert('Issue successfully added to your wishlist!'))
-      }
+
+        WishlistManager.createNewWishlistItem(wishlistObject)
+            .then(() => alert('Issue successfully added to your wishlist!'))
+    }
 
     render() {
         return (
             <>
-            <div className="card-container">
-                <div className="row hidden-md-up">
-                    {this.state.issues.map(issue => (
-                        <div className='card-block' key={issue.id}>
-                            <img className='card-img-top' src={issue.image.small_url} alt="" />
-                            <div className='card-body'>
-                                <h2 className='card-title'>Issue #{issue.issue_number} <br></br>{issue.name}</h2>
-                                <p>{issue.description}</p>
+                <div className="card-container">
+                    <div className="row hidden-md-up">
+                        {this.state.issues.map(issue => (
+                            <div className='card-block' key={issue.id}>
+                                <img className='card-img-top' src={issue.image.small_url} alt="" />
+                                <div className='card-body'>
+                                    <p className='card-title'>Issue #{issue.issue_number} <br></br>{issue.name}</p>
+                                </div>
+                                <div>
+                                    <button type="button" onClick={(evt) => this.createNewCollectionItem(evt, issue.id)}>Add to Collection</button>
+                                    <button type="button" onClick={(evt) => this.createNewWishlistItem(evt, issue.id)}>Add to Wishlist</button>
+                                </div>
                             </div>
-                            <div>
-                                <button type="button" onClick={(evt) => this.createNewCollectionItem(evt, issue.id)}>Add to Collection</button>
-                                <button type="button" onClick={(evt) => this.createNewWishlistItem(evt, issue.id)}>Add to Wishlist</button>
-                            </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
-            </div>
             </>
         );
     }

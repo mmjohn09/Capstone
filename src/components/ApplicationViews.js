@@ -4,10 +4,11 @@ import Welcome from './auth/WelcomePage';
 import Registration from './auth/Registration';
 import Login from './auth/Login';
 import VolumeDetail from './VolumeDetails';
-import WishlistList from './WishlistList';
 import AddToCollectionView from './AddToCollectionView';
 import CollectionView from './CollectionView';
 import WishlistView from './WishlistView';
+import IssueDetail from './IssueDetail'
+
 
 export default class ApplicationViews extends Component {
 	isAuthenticated = () => sessionStorage.getItem("activeUser") !== null
@@ -33,6 +34,12 @@ export default class ApplicationViews extends Component {
 						return <Redirect to='/welcome' />
 					}
 				}} />
+
+				<Route path="/collection/:collectionId(\d+)" render={(props) => {
+					// Pass the animalId to the AnimalDetailComponent
+					return <IssueDetail {...props} collectionId={parseInt(props.match.params.collectionId)} />
+				}} />
+
 
 				<Route exact path='/wishlist' render={props => {
 					if (this.isAuthenticated()) {

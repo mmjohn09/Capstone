@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 button {
-    margin: 3px;
+    margin: 0px;
     width: 230px;
     font-family: 'Oswald', 'arial', 'sans-serif';
     font-size: 12pt;

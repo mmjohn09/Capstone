@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import CollectionManager from '../modules/CollectionManager'
 import './CollectionAdd.css'
+import { Link } from "react-router-dom";
+
 
 export default class CollectionList extends Component {
 
     state = {
-        volumes: [],
-        issues: [],
-        entries: [],
+        collection: [],
         isLoaded: false,
     }
 
@@ -15,9 +15,9 @@ export default class CollectionList extends Component {
     componentDidMount() {
         //getAll from CollectionManager and hang on to that data; put it in state
         CollectionManager.getAllCollectionItems(this.activeUser)
-            .then((entries) => {
+            .then((collection) => {
                 this.setState({
-                    entries: entries
+                    collection: collection
                 })
             })
     }
@@ -28,31 +28,23 @@ export default class CollectionList extends Component {
                 CollectionManager.getAllCollectionItems(this.loggedInUser)
                     .then((newCollection) => {
                         this.setState({
-                            entries: newCollection
+                            collection: newCollection
                         })
                     })
             })
     }
 
     render() {
-
         return (
             <div className='card-container'>
                 <div className='row hidden-md-up'>
-                    {this.state.entries.map(entry => (
-                        <div className='card-block' key={entry.id}>
-                            <img className='card-img-top' src={entry.image.small_url} alt="" />
+                    {this.state.collection.map(collection => (
+                        <div className='card-block' key={collection.id}>
+                            <img className='card-img-top' src={collection.coverImg} alt="" />
                             <div className='card-body'>
-                                <h2 className='card-title'>{entry.name}</h2>
                                 <div>
-                                    {/* <span>Condition:<select>
-                                        <option value="excellent">Excellent</option>
-                                        <option value="good">Good</option>
-                                        <option value="fair">Fair</option>
-                                        <option value="poor">Poor</option>
-                                    </select></span> */}
                                     <div className='card-btns'><button type="button" className='delete-btn' onClick={this.deleteCollectionItem}>Delete</button>
-                                    <button type='button' className='details-btn'>Details</button></div>
+                                    <Link to={`/collection/${collection.id}`}><button type='button' className='details-btn'>Details</button></Link></div>
                                 </div>
                             </div>
                         </div>

@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import UserManager from "../../modules/UserManager";
-import Alert from 'react-bootstrap/Alert'
 import "./WelcomePage.css"
 class Login extends Component {
 
