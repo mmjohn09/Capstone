@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.rating-label {
+    color: white;
+    font-family: 'oswald', 'arial';
+}
+
+.condition-label {
+    color: white;
+    font-family: 'oswald', 'arial';
+}
+
+.issue-detail-form {
+    margin-top: 0px;
+}
+
+.save-edit {
+    margin: 3px;
+    width: 300px;
+    font-family: 'Oswald', 'arial', 'sans-serif';
+    font-size: 18pt;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 2px;
+    border-width: 2px;
+    margin-left: 40%;
+}
+
+button:hover {
+    opacity: 1;
+    color: black;
+}
+
+h3 {
+    font-family: 'oswald', 'arial', 'sans-serif';
+    color: white;
+    margin-left: 42%;
+    margin-top: 9%;
+    font-size: 24pt;
+}

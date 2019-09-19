@@ -41,19 +41,17 @@ export default class WishlistList extends Component {
                             <img className='card-img-top' src={wishlist.coverImg} alt="" />
                             <div className='card-body'>
                                 <div>
-                                    <div>
-                                        <button type="button" className='move-btn'>Move to Collection</button>
-                                    </div>
-                                    <div>
+                                    <div className='card-btns'>
                                         <Link to={`/wishlist/${wishlist.id}`}><button type="button" className='details-btn'>Details</button></Link>
+                                        <button type="button" className='delete-btn' onClick={(evt) => this.deleteWishlistItem(evt, wishlist.id)}>Delete</button>
                                     </div>
-                                    <div>
-                                        <button type="button" className='delete-btn' onClick={(evt)=> this.deleteWishlistItem(evt, wishlist.id)}>Delete</button>
-                                    </div>
+
+
                                 </div>
                             </div>
+                        
                         </div>
-                    ))}
+                ))}
                 </div>
             </div>
         )

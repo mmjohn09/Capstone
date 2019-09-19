@@ -3,6 +3,7 @@ import WishlistManager from '../modules/WishlistManager';
 import './WishlistIssueDetail.css'
 
 
+
 class WishlistDetail extends Component {
 
     state = {
@@ -31,17 +32,19 @@ class WishlistDetail extends Component {
 
     render() {
         return (
-            <div className='card'>
-                <img className='card-img' src={this.state.coverImg} alt='' />
-                <div className='card-body'>
-                    <h3>Title: {this.state.title}</h3>
-                    <h5>Volume: {this.state.volume}</h5>
-                    <h5>Issue #: {this.state.issueNumber}</h5>
-                    <p>{this.state.description}</p>
-                    <p>Publish Date: {this.state.publishDate}</p>
+            <>
+                <div className='cards'>
+                    <div className='detail-container'>
+                    <img className='detail-card-img' src={this.state.coverImg} alt='' />
+                        <h5 className='detail-title'>{this.state.title}</h5>
+                        {/* <h5>{this.state.volume} #{this.state.issueNumber}</h5> */}
+                        {/* <h5>{this.state.publishDate}</h5> */}
+                        <p className='p-description'>{this.state.description}</p>
+
+                    </div>
                 </div>
-                <div className='edit-btn'><button type='button'>EDIT</button></div>
-            </div>
+
+            </>
         )
     }
 }

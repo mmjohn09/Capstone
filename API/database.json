@@ -27,69 +27,59 @@
   ],
   "collection": [
     {
-      "title": "Unmasked!",
-      "volume": "Iron Man",
-      "issueNumber": "11",
-      "publishDate": "1969-03-01",
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/9145-2407-10100-1-iron-man.jpg",
+      "title": "TPB",
+      "volume": "Yuge! 30 Years of Doonesbury On Trump",
+      "issueNumber": "1",
+      "publishDate": "2016-07-31",
+      "description": "<p><em>He tried to warn us. Ever since the release of the first Trump-for-President trial balloon in 1987, Doonesbury's Garry Trudeau has tirelessly tracked and highlighted the unsavory career of the most unqualified candidate to ever aspire to the White House. It's all there--the hilarious narcissism, the schoolyard bullying, the loathsome misogyny, the breathtaking ignorance; and a good portion of the Doonesbury cast has been tangled up in it. Join Duke, Honey, Earl, J.J., Mike, Mark, Roland, Boopsie, B.D., Sal, Alice, Elmont, Sid, Zonker, Sam, Bernie, Rev. Sloan, and even the Red Rascal as they cross storylines with the big, orange airhorn who's giving the GOP such fits. Garry Trudeau is the \"sleazeball\" \"third-rate talent\" who draws the \"overrated\" comic strip Doonesbury, which \"very few people read.\" He lives in New York City with his wife Jane Pauley, who \"has far more talent than he has.\"</em></p><p><strong>Note</strong>: The digital edition (7/5/2016) for this volume was released before the print edition.</p>",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/5302630-01.jpg",
+      "condition": "test",
+      "rating": "test",
       "userId": 1,
-      "id": 2
-    },
-    {
-      "title": "Captives of the Controller",
-      "volume": "Iron Man",
-      "issueNumber": "13",
-      "publishDate": "1969-05-01",
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/4018638-im13nm9m044.jpg",
-      "userId": 1,
-      "id": 3
-    },
-    {
-      "title": "Of Beasts and Men!",
-      "volume": "Iron Man",
-      "issueNumber": "16",
-      "publishDate": "1969-08-01",
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/9387-2407-10359-1-iron-man.jpg",
-      "userId": 1,
-      "id": 4
-    },
-    {
-      "title": "The Night Phantom Walks!",
-      "volume": "Iron Man",
-      "issueNumber": "14",
-      "publishDate": "1969-06-01",
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/9296-2407-10263-1-iron-man.jpg",
-      "userId": 1,
-      "id": 5
+      "id": 1
     }
   ],
   "wishlist": [
     {
-      "title": "Once More...The Mandarin!",
-      "volume": "Iron Man",
-      "issueNumber": "10",
-      "publishDate": "1969-02-01",
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/3542888-im10nm92m053.jpg",
+      "title": "Velocity 9 / Light at the End of the Tunnel",
+      "volume": "The Flash",
+      "issueNumber": "12",
+      "publishDate": "1988-05-31",
+      "description": "The police investigate a rash of super-speed robberies, a mysterious drug is being sold on the black market, Wally's mom and girlfriend continue to clash over house decor, and Wally discovers something interesting next door. Thieves doped up on a super speed inducing drug called Velocity 9 attack the Red Trinity's new courier service as well as Wally's drug smuggling neighbor. Included is DC Bonus Book #2, featuring Dr. Light with a cameo by the New Titans. Velocity 9 written by Mike Baron, penciled by Mike Collins, inked by Larry Mahlstedt, lettered by Steve Haynie.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/26607-3790-29536-1-flash.jpg",
       "userId": 1,
       "id": 1
     },
     {
-      "title": "The Coming of the Controller",
-      "volume": "Iron Man",
-      "issueNumber": "12",
-      "publishDate": "1969-04-01",
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/9195-2407-10155-1-iron-man.jpg",
+      "title": "Wipe Out",
+      "volume": "The Flash",
+      "issueNumber": "14",
+      "publishDate": "1988-07-31",
+      "description": "At the behest of his beautiful neighbor, Flash takes on a mission to rescue a kidnapped mob boss, only to confront immortal drug peddler and all-around bad guy Vandal Savage. Wally gets bad news about his finances. The battle between Vandal Savage and the Flash concludes, but not until after Savage pumps the Flash full of Velocity 9! Inside joke all creator's first names were Mike. Page 4 panel 2 the tractor trailer marked with Randall is a homage to the editor Barbara Randall.Wally West was informed by his mother that his fortune is gone wiped out due to the stock market collapsing.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/26824-3790-29774-1-flash.jpg",
       "userId": 1,
       "id": 2
     },
     {
-      "title": "The Beginning of the End",
-      "volume": "Iron Man",
-      "issueNumber": "17",
-      "publishDate": "1969-09-30",
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/4036206-im17vf8m054.jpg",
+      "title": "The Clipper Returns",
+      "volume": "The Flash",
+      "issueNumber": "23",
+      "publishDate": "1989-02-28",
+      "description": "The Clipper Returns. Wally's friend Mason avenges crime as The Clipper while Wally himself is once again without his powers, this time due to a bomb set off by aliens during the epic Invasion series. Guest starring Abracadabra.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/27811-3790-30855-1-flash.jpg",
       "userId": 1,
       "id": 3
+    },
+    {
+      "title": "Aquababy Grows Up... And What a Rumble!",
+      "volume": "Aquaman",
+      "issueNumber": "25",
+      "publishDate": "1966-02-01",
+      "description": "An ancient wizard, his daughter and a four-armed warrior from Genghis Khan’s time invade Atlantis, age Aquababy into a teenage Aquaboy and mentally control him to gain dominance over Atlantis. A quiet day in Atlantis finds Aquaman and Mera discussing the eventual fate of their son. Aquaman fantasizes that Arthur, Jr. will grow up to be a crime fighter, and future protector of the seas. Mera, however, desires that their son become a great scientist, and eventual ruler of Atlantis. Distracted by their spirited debate, neither notice Aquababy wandering off. Outside of Atlantis, a dragon-shaped submarine descends on the domed city.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/7506-2050-8281-1-aquaman.jpg",
+      "userId": 1,
+      "id": 4
     }
-  ]
+  ],
+  "issueDetails": []
 }

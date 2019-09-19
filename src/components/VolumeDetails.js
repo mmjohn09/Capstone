@@ -6,14 +6,21 @@ import './VolumeDetails.css'
 class VolumeDetail extends Component {
     state = {
         issues: [],
-        name: ""
+        title: "",
+        volume: "",
+        issueNumber: "",
+        publishDate: "",
+        description: "",
+        coverImg: "",
+        condition: "",
+        rating: ""
+
     }
 
     componentDidMount() {
         //getIssueByVolume(id) from CollectionManager and hang on to the data; put it into state
         CollectionManager.getIssueByVolume(this.props.volumeId)
             .then((issues) => {
-                console.log(issues)
                 this.setState({
                     issues: issues.results,
                     name: issues.name
@@ -31,7 +38,10 @@ class VolumeDetail extends Component {
             volume: selectedIssueObject.volume.name,
             issueNumber: selectedIssueObject.issue_number,
             publishDate: selectedIssueObject.cover_date,
+            description: selectedIssueObject.description,
             coverImg: selectedIssueObject.image.small_url,
+            condition: "",
+            rating: "",
             userId: parseInt(sessionStorage.getItem("activeUser"))
         }
 
@@ -49,6 +59,7 @@ class VolumeDetail extends Component {
             volume: selectedIssueObject.volume.name,
             issueNumber: selectedIssueObject.issue_number,
             publishDate: selectedIssueObject.cover_date,
+            description: selectedIssueObject.description,
             coverImg: selectedIssueObject.image.small_url,
             userId: parseInt(sessionStorage.getItem("activeUser"))
         }
@@ -67,10 +78,11 @@ class VolumeDetail extends Component {
                                 <img className='card-img-top' src={issue.image.small_url} alt="" />
                                 <div className='card-body'>
                                     <p className='card-title'>Issue #{issue.issue_number} <br></br>{issue.name}</p>
+                                    
                                 </div>
-                                <div>
-                                    <button type="button" onClick={(evt) => this.createNewCollectionItem(evt, issue.id)}>Add to Collection</button>
-                                    <button type="button" onClick={(evt) => this.createNewWishlistItem(evt, issue.id)}>Add to Wishlist</button>
+                                <div className='btn-grp'>
+                                    <button className='addCollection-btn' type="button" onClick={(evt) => this.createNewCollectionItem(evt, issue.id)}>Add to Collection</button>
+                                    <button className='addWishlist-btn' type="button" onClick={(evt) => this.createNewWishlistItem(evt, issue.id)}>Add to Wishlist</button>
                                 </div>
                             </div>
                         ))}

@@ -9,6 +9,9 @@ import CollectionView from './CollectionView';
 import WishlistView from './WishlistView';
 import IssueDetail from './IssueDetail'
 import WishlistDetail from './WishlistIssueDetail'
+import AddDetailsForm from './AddDetailsForm'
+
+
 
 
 export default class ApplicationViews extends Component {
@@ -36,9 +39,15 @@ export default class ApplicationViews extends Component {
 					}
 				}} />
 
-				<Route path="/collection/:collectionId(\d+)" render={(props) => {
+				<Route exact path="/collection/:collectionId(\d+)" render={(props) => {
 					return <IssueDetail {...props} collectionId={parseInt(props.match.params.collectionId)} />
 				}} />
+
+				<Route
+					path="/collection/:collectionId(\d+)/details" render={props => {
+						return <AddDetailsForm {...props} />
+					}}
+				/>
 
 
 				<Route exact path='/wishlist' render={props => {

@@ -43,8 +43,10 @@ export default class CollectionList extends Component {
                             <div className='card-body'>
                                 <div>
                                     <div className='card-btns'>
-                                        <Link to={`/collection/${collection.id}`}><button type='button' className='details-btn'>Details</button></Link></div>
-                                    <button type="button" className='delete-btn' onClick={(evt)=> this.deleteCollectionItem(evt, collection.id)}>Delete</button>
+                                        <Link to={`/collection/${collection.id}`}><button type='button' className='details-btn'>Details</button></Link>
+                                        <button type="button" className='delete-btn' onClick={(evt)=> this.deleteCollectionItem(evt, collection.id)}>Delete</button></div>
+                                    
+                                    
                                 </div>
                             </div>
                         </div>

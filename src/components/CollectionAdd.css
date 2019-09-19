@@ -94,7 +94,7 @@ button:hover {
 }
 
 .card-body {
-    padding: 5px;
+    padding: 1px;
 }
 
 .search-btn {
@@ -105,4 +105,30 @@ button:hover {
 
 .card-btns {
     margin-bottom: 0px;
+    width: 230px;
+    font-family: 'oswald', 'arial', 'sans-serif';
+}
+
+.details-btn {
+    width: 115px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 2px;
+    border-width: 2px;
+}
+
+.delete-btn {
+    width: 115px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 2px;
+    border-width: 2px;
+}
+
+.delete-btn:hover {
+    opacity: 1;
+}
+
+.details-btn:hover {
+    opacity: 1;
 }

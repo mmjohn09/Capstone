@@ -32,5 +32,25 @@ export default {
     getCollectionIssue(id) {
         return fetch(`${remoteURL}/collection/${id}`)
             .then(result => result.json())
-    }
+    },
+
+    // updateCollectionDetails(editedCollectionObject) {
+    //     return fetch(`${remoteURL}/collection/${editedCollectionObject.id}`, {
+    //       method: "PUT",
+    //       headers: {
+    //         "Content-Type": "application/json"
+    //       },
+    //       body: JSON.stringify(editedCollectionObject)
+    //     }).then(data => data.json());
+    //   },
+
+      updateCollectionDetails(editedCollectionObject) {
+        return fetch(`${remoteURL}/collection/${editedCollectionObject.id}`, {
+          method: "PATCH",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(editedCollectionObject)
+        }).then(data => data.json());
+      }
 }
