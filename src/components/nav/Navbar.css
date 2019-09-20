@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+
+ 
+.nav-link {
+    margin: 0px;
+    font-family: 'oswald', 'sans-serif', 'arial';
+    color: white;
+    font-size: 20px;
+}
+
+.home {
+    display: inline-flex;
+
+}
+
+.container {
+    list-style-type: none;
+    font-family: 'oswald', 'sans-serif', 'arial';
+    margin-left: 600px;
+    width: 550px;
+}
+
+.container li {
+    background-color: rgba(0, 0, 0, 0.466);
+    display: inline-block;
+    margin: 0px;
+}
+
+.nav-home {
+    font-family: 'bangers', 'oswald', 'sans-serif';
+    font-size: 32pt;
+    color: white;
+    margin-left: 70px;
+    margin-top: 55px;
+    margin-right: 10px;
+    width: 190px;
+}
+
+.navbar {
+    height: 50px;
+    padding: 0px;
+    width: 1100px;
+ 
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(206, 205, 205);
+}
+
+.logout-btn {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    width: 70px;
+    height: 25px;
+    font-size: 10pt;
+
+}

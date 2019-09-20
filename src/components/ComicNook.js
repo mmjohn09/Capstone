@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Navbar from "./nav/Navbar"
 import ApplicationViews from "./ApplicationViews";
+import Navbar from "./nav/Navbar";
 
-class SuperShelf extends Component {
+class ComicNook extends Component {
   render() {
     return (
       <>
@@ -13,4 +13,4 @@ class SuperShelf extends Component {
   }
 }
 
-export default SuperShelf;
+export default ComicNook;

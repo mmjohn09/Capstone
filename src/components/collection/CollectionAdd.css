@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+h5 {
+    font-family: 'oswald', 'arial', 'sans-serif';
+    color: white;
+    margin-left: 42%;
+    margin-top: 3%;
+    font-size: 24pt;
+}
+
+.search-btn {
+    margin: 3px;
+    width: 300px;
+    font-family: 'Oswald', 'arial', 'sans-serif';
+    font-size: 18pt;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 2px;
+    border-width: 2px;
+    margin-left: 40%;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.formgrid {
+    margin-top: 10px;
+}
+
+.card-img-top {
+    width: 230px;
+    height: 330px;
+    float: i;
+}
+
+.card-block {
+    width: 230px;
+    margin: inherit;
+}
+
+.row {
+    margin: 15px;
+}
+
+.search-field {
+    margin: 15px;
+}
+
+.card-title {
+    font-family: 'oswald','Arial','Sans-Serif'; 
+    margin: 0px;
+} 
+
+.card-content {
+    font-family: 'oswald','Arial','Sans-Serif'; 
+    color: white;
+}
+
+.card-container {
+    display: grid;
+    justify-content: space-evenly;
+    margin-left: 60px;
+}
+
+.volume-details-btn {
+    margin: 3px;
+    width: 100px;
+    font-family: 'Oswald', 'arial', 'sans-serif';
+    font-size: 12pt;
+    opacity: .9;
+    transition: 0.3s;
+    border-radius: 2px;
+    border-width: 2px;
+}
+
+.volume-details-btn:hover {
+    opacity: 1;
+}
+
+.card-title {
+    font-family: 'oswald', 'arial', 'sans-serif';
+    color: white;
+    background-color: rgba(0, 0, 0, 0.37);
+    /* font-size: 12pt; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12pt;
+}
+
+.card-body {
+    padding: 1px;
+}
+
+.search-btn {
+    margin-left: 40%;
+    width: 300px;
+    height: 45px;
+}
+
+.card-btns {
+    margin-bottom: 0px;
+    width: 230px;
+    font-family: 'oswald', 'arial', 'sans-serif';
+}
+
+.details-btn {
+    width: 115px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 2px;
+    border-width: 2px;
+}
+
+.delete-btn {
+    width: 115px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 2px;
+    border-width: 2px;
+}
+
+.delete-btn:hover {
+    opacity: 1;
+}
+
+.details-btn:hover {
+    opacity: 1;
+}
+
+.page__heading {
+    font-family: 'oswald','arial','sans-serif';
+    color: white;
+    margin-left: 125px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}

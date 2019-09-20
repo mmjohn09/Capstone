@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.addCollection-btn {
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 2px;
+    border-width: 2px;
+    font-family: 'oswald', 'arial', 'sans-serif';
+}
+
+.addWishlist-btn {
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius: 2px;
+    border-width: 2px;
+    font-family: 'oswald', 'arial', 'sans-serif';
+}
+
+.addCollection-btn:hover {
+    opacity: 1;
+}
+
+.addWishlist-btn:hover {
+    opacity: 1;
+}
+
+.results-background-img {
+    background-image: url('background.png')
+}
+
+.page__heading {
+    font-family: 'oswald','arial','sans-serif';
+    color: white;
+    margin-left: 125px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}

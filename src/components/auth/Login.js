@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import UserManager from "../../modules/UserManager";
+import "./WelcomePage.css"
 class Login extends Component {
 
     // Set initial state
@@ -18,36 +19,35 @@ class Login extends Component {
     handleLogin = (evt) => {
         evt.preventDefault()
         UserManager.checkUser(this.state.email, this.state.password)
-        .then(results=>{
+        .then(results=> {
             if(results.length>0) {
                 sessionStorage.setItem("activeUser", results[0].id)
-                this.props.history.push("/collection");
+                this.props.history.push("/search");
             } else {
-                alert("Incorrect email or password")
+                alert("Incorrect email or password") 
             } 
         })
     }
 
     render() {
         return (
-            <form onSubmit={this.handleLogin}>
+            <form className="login-form" onSubmit={this.handleLogin}>
                 <fieldset>
-                    <h3>Please sign in</h3>
-                    <div className="formgrid">
+                    <div className="formgrid-login">
                         <input onChange={this.handleFieldChange} type="email"
                             id="email"
-                            placeholder="Email address"
+                            placeholder="peterparker@mail.com"
                             required="" autoFocus="" />
-                        <label htmlFor="inputEmail">Email address</label>
-
+                        <label htmlFor="inputEmail"></label>
+                        <br></br>
                         <input onChange={this.handleFieldChange} type="password"
                             id="password"
-                            placeholder="Password"
+                            placeholder="*******"
                             required="" />
-                        <label htmlFor="inputPassword">Password</label>
+                        <label htmlFor="inputPassword"></label>
                     </div>
-                    <button type="submit">
-                        Sign in
+                    <button className='login-btn' type="submit">
+                        ENTER
             </button>
                 </fieldset>
             </form>

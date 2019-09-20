@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+    background-image: url('https://c.wallhere.com/photos/c9/f4/1920x886_px_DC_Comics_Dr_Manhattan_Watchmen-737776.jpg!d')
+} 
+
+.login--btn {
+    margin: 3px;
+    height: 40px;
+    width: 200px;
+    font-family: 'Oswald', 'arial', 'sans-serif';
+    font-size: 18pt;
+    opacity: 0.6;
+    transition: 0.3s;
+    /* background-color: black;
+    color: white; */
+    border-radius: 2px;
+    border-width: 2px;
+}
+
+.register--btn {
+    width: 200px;
+    height: 40px;
+    margin: 3px;
+    font-family: 'Oswald', 'arial', 'sans-serif';
+    font-size: 18pt;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.welcome--btns {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+      
+}
+
+.app-name {
+    font-family: 'Bangers', 'arial', 'sans-serif';
+    font-size: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.formgrid-login {
+    margin-top: 250px;
+  
+}
+
+.formgrid-registration {
+    margin-top: 250px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    margin-left: 40%;
+    margin-bottom: 3px;
+    font-family: 'Oswald', 'monospace', 'arial';
+    background-color: black;
+    color: white;
+    border-width: 2px;
+}
+
+.login-btn {
+    width: 300px;
+    height: 40px;
+    font-family: 'Oswald', 'arial', 'sans-serif';
+    font-size: 18pt;
+    margin-left: 40%;
+    /* background-color: black;
+    color: white; */
+    border-radius: 2px;
+    border-width: 2px;
+    opacity: 0.6;
+  transition: 0.3s;
+}
+
+.submit-btn {
+    margin-left: 40%;
+    width: 300px;
+    height: 40px;
+    /* background-color: black;
+    color: white; */
+    font-size: 18pt;
+    border-radius: 2px;
+    border-width: 2px;
+    font-family: 'oswald', 'arial', 'sans-serif';
+    opacity: 0.6;
+  transition: 0.3s;
+}
+
+.submit-btn:hover 
+     {opacity: 1}
+
+
+.login-btn:hover 
+     {opacity: 1}
+
+.register--btn:hover 
+     {opacity: 1}
+
+.login--btn:hover 
+     {opacity: 1}
+
+.enter-btn {
+    margin-left: 40%;
+    width: 300px;
+    height: 40px;
+    /* background-color: black;
+    color: white; */
+    font-size: 18pt;
+    border-radius: 2px;
+    border-width: 2px;
+    font-family: 'oswald', 'arial', 'sans-serif';
+    opacity: 0.6;
+  transition: 0.3s;
+}
+
+.enter-btn:hover {
+    opacity: 1;
+}
