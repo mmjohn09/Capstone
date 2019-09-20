@@ -1,22 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
-.rating-label {
+h4 {
     color: white;
     font-family: 'oswald', 'arial';
-}
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+ }
 
 .condition-label {
     color: white;
     font-family: 'oswald', 'arial';
+    margin: auto;
+    text-align: center;
 }
 
 .issue-detail-form {
-    margin-top: 0px;
+    margin: auto;
 }
 
 .save-edit {
-    margin: 3px;
+    margin-left: 39.5%;
     width: 300px;
     font-family: 'Oswald', 'arial', 'sans-serif';
     font-size: 18pt;
@@ -24,7 +29,6 @@
     transition: 0.3s;
     border-radius: 2px;
     border-width: 2px;
-    margin-left: 40%;
 }
 
 button:hover {
@@ -32,10 +36,39 @@ button:hover {
     color: black;
 }
 
-h3 {
+.form-heading {
     font-family: 'oswald', 'arial', 'sans-serif';
     color: white;
-    margin-left: 42%;
-    margin-top: 9%;
+    margin: auto;
     font-size: 24pt;
+    text-align: center;
+    padding-top:75px;
+    padding-bottom: 25px;
+}
+
+.issue-detail-form {
+    margin: auto;
+}
+
+.stars {
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.dropdown {
+    font-family: 'oswald', 'arial', 'sans-serif';
+    font-size: 14pt;
+    margin: auto;
+    margin-left: 43.5%;
+    width: 200px;
+    padding-top: 20px;
+}
+
+.save-edits-btn {
+    padding-top: 20px;
+}
+
+.condition-label {
+    padding-bottom: 20px;
 }

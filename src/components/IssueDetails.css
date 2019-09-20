@@ -66,3 +66,8 @@
     border-width: 2px;
     font-family: 'oswald', 'arial', 'sans-serif';
 }
+
+.star-rating {
+    font-size: 20pt;
+    margin-top: 10px;
+}
