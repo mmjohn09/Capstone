@@ -22,7 +22,7 @@
       "description": "Queens Solala and Leila ally themselves with Wonder Woman, but there's a traitor in their midst.",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/24102-3606-26847-1-legend-of-wonder-wom.jpg",
       "condition": "",
-      "rating": "",
+      "rating": 3,
       "userId": 1,
       "id": 1
     },
@@ -34,7 +34,7 @@
       "description": "When Mysterio comes to start trouble, Spider-Man usually follows! In this special issue we see Spidey and She-Hulk join arms to take on the Headmen! Spider-Man is following the buzzing of his spider-sense, which leads him to an unused factory. Spidey wonders what could possibly be so dangerous here, and then he spots Mysterio leaving the factory. Mysterio gets into a car and drives away. Spider-Man shoots a web-line onto the car, and follows along!",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/28334-4243-31444-1-sensational-she-hulk.jpg",
       "condition": "",
-      "rating": "",
+      "rating": 5,
       "userId": 1,
       "id": 2
     },
@@ -46,7 +46,7 @@
       "description": "After an epic battle with the Red Ghost, Iron Man and the Unicorn team up to take him down once and for all! But will their efforts be all for nothing, when the Alpha and Beta arrive? Don't miss Iron Man in Of Mice and Men! It's a fantastically unexpected team-up, when Iron man and Unicorn fight against the Red ghost and his apes!",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/9387-2407-10359-1-iron-man.jpg",
       "condition": "",
-      "rating": "",
+      "rating": 5,
       "userId": 1,
       "id": 3
     },
@@ -58,7 +58,7 @@
       "description": "As scientist Dr. Bruce Banner prepares to test a new weapon for the U.S. military, the gamma bomb, he is pressured into preemptively launching the bomb by visiting scientist Igor Drenkov and General Thunderbolt Ross. Having commenced the countdown Bruce notices a civilian in the test area (Rick Jones) and rushes out to save him. Unfortunately Bruce Banner is caught in the explosion of the bomb and is bombarded by gamma radiation while Rick is safely shielded in the bunker. Awaking later in a military hospital as the sun sets Bruce Banner begins to transform into a grey-skinned goliath called the Hulk and escapes the military base fleeing into the desert.",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/2464602-hulk001.jpg",
       "condition": "",
-      "rating": "",
+      "rating": 4,
       "userId": 1,
       "id": 4
     },
@@ -70,7 +70,7 @@
       "description": "With his Uncle's recent passing and with it lack of income to the household, Peter Parker decides his best course of action is to continue a show biz career as Spider-Man performing various stunts for a stunned audience. Unfortunately when he returns the following night for another performance he finds that it and all future shows have been cancelled due to a newspaper editorial by a Mr. J. Jonah Jameson labelling him a menace. When the rocket piloted by Jameson's son John Jameson malfunctions however, Spider-man convinces the military to allow him to help and riding aboard a jet to catch up with John's capsule where he is able to web-zip onto the capsule and replace the defective guidance control so that John is able to land safely.",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/2676366-amazingspiderman001.jpg",
       "condition": "",
-      "rating": "",
+      "rating": 4,
       "userId": 1,
       "id": 5
     },
@@ -82,7 +82,7 @@
       "description": "",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/71213-11908-104211-1-josie-and-the-pussyc.jpg",
       "condition": "",
-      "rating": "",
+      "rating": 3,
       "userId": 4,
       "id": 6
     },
@@ -94,7 +94,7 @@
       "description": "The story opens with the X-men training in the Danger Room. Today Scott Summers is practicing the speed at which he can blast bean bags that are being launched at him by the Beast. The other boys are involved with some one-upmanship and roughhousing until Professor X calls them to order. Jean's task is to move a block of wood through a series of obstacles as quickly as possible. Their training is interrupted when Professor X detects the presence of another mutant nearby. He commands the X-men to change into civilian clothes to seek out this new mutant and bring him back to their headquarters.",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/1355038-01.jpg",
       "condition": "",
-      "rating": "",
+      "rating": 5,
       "userId": 4,
       "id": 9
     },
@@ -105,8 +105,8 @@
       "publishDate": "1978-01-01",
       "description": "In 1978, an alien race called the Scrubb demands that Earth's greatest champion battle their world's own greatest fighter. Both Superman and Muhammad Ali step forward — and to determine who is truly Earth's greatest fighter, Superman temporarily loses his powers and faces Ali in the ring. Ultimately, the duo must work together to defeat the Scrubb, with Ali taking on their champion while Superman battles their space-armada.",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/1256083-superman_vs._muhammed_ali___page_1.jpg",
-      "condition": "Test",
-      "rating": "Test",
+      "condition": "",
+      "rating": 4,
       "userId": 4,
       "id": 10
     },
@@ -118,7 +118,7 @@
       "description": "Surfer hunts down The Collector seeking answers about his involvement in the Contest of Champions. What plans do the Elders of the Universe have for Galactus? Plus, the return of Espirita! The Collector is surprised to see that his wife Matani has come back to life after being dead for three billion years. Apparently, the Grandmaster was able to bring her out of Death's domain as promised. But she still has no will to live and dies in his arms. The Silver Surfer comes in for he has been looking for him since he was attacked by Champion, a fellow elder, and he learned of Grandmaster's plan to kill the Avengers.",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/25713-3857-28571-1-silver-surfer.jpg",
       "condition": "",
-      "rating": "",
+      "rating": 2,
       "userId": 4,
       "id": 11
     },
@@ -130,7 +130,7 @@
       "description": "KLAW has returned! The Murderous Master of Sound has already taken down the Vision, and his next target is his old nemesis, the Black Panther! Klaw's plan revealed! The Black Panther and the Avengers team-up to take down a fully powered Klaw. Plus a cliffhanger that continues in Marvel Premiere #51",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/4275218-bp15vf8m121.jpg",
       "condition": "",
-      "rating": "",
+      "rating": 2,
       "userId": 4,
       "id": 12
     },
@@ -142,7 +142,7 @@
       "description": "Sabre failed to bring Swamp Thing to Colossus, so now Thrudvang must finish the job - but Swamp Thing is no longer a man-monster, he's just normal Alec Holland!",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/1993167-24.jpg",
       "condition": "",
-      "rating": "",
+      "rating": 4,
       "userId": 4,
       "id": 13
     },
@@ -154,7 +154,7 @@
       "description": null,
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/2943952-forw1.jpg",
       "condition": "",
-      "rating": "",
+      "rating": 3,
       "userId": 4,
       "id": 14
     },
@@ -166,7 +166,7 @@
       "description": null,
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/15502-2910-17277-1-ms-marvel.jpg",
       "condition": "",
-      "rating": "",
+      "rating": 2,
       "userId": 4,
       "id": 15
     },
@@ -178,7 +178,7 @@
       "description": "In Washington the US government is discussing a plan to stop enemies from secretly joining their ranks and sabotaging them from the inside. J. Arthur Grover, head of the Federal Bureau of Investigation, has a plan to stop such things. Mister Grover leads the disguised army officials to an innocent looking shop of curiosities, but the shop is far from that. An old woman behind the counter leads the men through the building to a heavily barred door where it is opened by a scientist. Inside the room they find a laboratory. The old woman they've been following removes her face, revealing it was a mask to hide her identity. This young beautiful woman was Agent X-13. Afterwards the men have a seat in an adjacent room with a large window and await the new experiment about to begin. Inside the room they witness a frail young man who volunteered to take part in the procedure next to a scientist by the name of Professor Reinstein. Professor Reinstein injects the young man with a strange seething liquid, moments later the young man isn't so frail as his muscles start to grow. Professor Reinstein displays the now changed man as Captain America, America's savior against the saboteurs, spies, and enemies.",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/2677627-captainamericacomics01.jpg",
       "condition": "",
-      "rating": "",
+      "rating": 1,
       "userId": 4,
       "id": 17
     },
@@ -190,9 +190,21 @@
       "description": "",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/644896-yellow1.jpg",
       "condition": "",
-      "rating": "",
+      "rating": 1,
       "userId": 4,
       "id": 18
+    },
+    {
+      "title": "The Flying Batman",
+      "volume": "Batman",
+      "issueNumber": "82",
+      "publishDate": "1954-03-01",
+      "description": "Stories: The Flying Batman, The Man Who Could Change Fingerprints The Olympic Games of Crime.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/964-796-1027-1-batman.jpg",
+      "condition": "",
+      "rating": "",
+      "userId": 4,
+      "id": 19
     }
   ],
   "wishlist": [
@@ -297,16 +309,6 @@
       "id": 13
     },
     {
-      "title": null,
-      "volume": "Cowboy Western",
-      "issueNumber": "33",
-      "publishDate": "1951-06-01",
-      "description": null,
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/1502880-33.jpg",
-      "userId": 4,
-      "id": 14
-    },
-    {
       "title": "Wheels On Fire",
       "volume": "Ghost Rider",
       "issueNumber": "3",
@@ -321,7 +323,7 @@
       "volume": "The Punisher",
       "issueNumber": "4",
       "publishDate": "1987-11-01",
-      "description": "The Rev. Sammy Smith has amassed a dangerous following…so much so that he’s gained the attention of The Punisher!After having to blow up his van in the last issue, Castle goes to Microchip who has been building his vans and tech equipment for ten years. He meets Microchip's son, who had been becoming a computer hacker. When Castle goes to buy weapons her hears of a religious cult called Church of the Saved lead by a man called the Rev that has been trying to buy multiple weapons. Then while sitting in his weapon dealers car, buying weapons they are attacked with the weapons dealer dying. Castle ducks down and waits for the attacker to come closer and then shoots him. Frank sees that his attacker was from the Church of the Saved. Frank goes back to Microchip to gather intel on the church of the saved. They discover that a cop used to be a member of the cult and Castle goes to him for information. Through him the Punisher learns that the Rev recruits inner city blacks and uses them to do his bidding. He then goes back to Microchip and they create a fake identity for him to infiltrate the cult. Frank infuriates the cult and pretends to want to join them. They accept him and later he meets the Rev, who sends him on a mission to retrieve a tape. When Castle gets the tape he is shot in the process but stashes the tapes where no ineffective will find them. He is healed by the Rev. Castle returns to get the tapes. He goes to his safe-house and watches what is on them and sees footage of the Rev executing someone.",
+      "description": "The Rev. Sammy Smith has amassed a dangerous following…so much so that he’s gained the attention of The Punisher!After having to blow up his van in the last issue, Castle goes to Microchip who has been building his vans and tech equipment for ten years. He meets Microchip's son, who had been becoming a computer hacker. When Castle goes to buy weapons her hears of a religious cult called Church of the Saved lead by a man called the Rev that has been trying to buy multiple weapons. Then while sitting in his weapon dealers car, buying weapons they are attacked with the weapons dealer dying. Castle ducks down and waits for the attacker to come closer and then shoots him. Frank sees that his attacker was from the Church of the Saved. Frank goes back to Microchip to gather intel on the church of the saved. ",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/3243611-004.jpg",
       "userId": 4,
       "id": 16
@@ -351,7 +353,7 @@
       "volume": "The Beatles, Yellow Submarine",
       "issueNumber": "1",
       "publishDate": "2018-08-28",
-      "description": "<p><em>The official graphic novel adaptation of The Beatles' iconic animated film, Yellow Submarine, released to coincide with the 50th Anniversary of its release! Written and illustrated by Bill Morrison, Editor of MAD Magazine! The Beatles are recruited by the captain of the Yellow Submarine to help him free Sgt, Pepper's Lonely Hearts Club Band, and the world of Pepperland from the music-hating Blue Meanies.</em></p>",
+      "description": "The official graphic novel adaptation of The Beatles' iconic animated film, Yellow Submarine, released to coincide with the 50th Anniversary of its release! Written and illustrated by Bill Morrison, Editor of MAD Magazine! The Beatles are recruited by the captain of the Yellow Submarine to help him free Sgt, Pepper's Lonely Hearts Club Band, and the world of Pepperland from the music-hating Blue Meanies.",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/6583949-01.jpg",
       "userId": 4,
       "id": 19
@@ -361,10 +363,30 @@
       "volume": "Batman",
       "issueNumber": "77",
       "publishDate": "1953-06-01",
-      "description": "<p>Stories: </p><p> </p><ol><li>The Crime Predictor: ''Dancer'' Kern bribed Ralph Edney, a carpenter, to install a series of hidden panels in buildings around Gotham City where he and his men could store their loot after committing robberies, allowing them to escape without fear of losing their new possessions. Batman and Robin attempted to track Kern and his gang to recover the property but were hampered when Captain Harby, filling in for Police Commissioner James Gordon, decided the Dynamic Duo were glory hounds. Rather then let them operate as normal, he tasked them with routine uniformed</li><li>The Secret Star</li><li>Batman Pounds a Beat</li></ol>",
+      "description": "The Crime Predictor: ''Dancer'' Kern bribed Ralph Edney, a carpenter, to install a series of hidden panels in buildings around Gotham City where he and his men could store their loot after committing robberies, allowing them to escape without fear of losing their new possessions. Batman and Robin attempted to track Kern and his gang to recover the property but were hampered when Captain Harby, filling in for Police Commissioner James Gordon, decided the Dynamic Duo were glory hounds. Rather then let them operate as normal, he tasked them with routine uniformedThe Secret Star Batman Pounds a Beat",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/527-796-560-1-batman.jpg",
       "userId": 4,
       "id": 20
+    },
+    {
+      "title": "The Power of the Word",
+      "volume": "The Savage She-Hulk",
+      "issueNumber": "9",
+      "publishDate": "1980-10-31",
+      "description": "Jennifer Walters is a lawyer by day, She-Hulk by night. But what happens when these two sides begin to clash? She-Hulk returns from Florida, and her job as a lawyer takes her to infiltrate a cult sept, where teir gurus control the minds of the followers simply with the use of speech and charisma.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/18545-3053-20742-1-savage-she-hulk-the.jpg",
+      "userId": 4,
+      "id": 21
+    },
+    {
+      "title": "Introducing Toro; Sub-Mariner Crashes New York Again",
+      "volume": "The Human Torch",
+      "issueNumber": "2",
+      "publishDate": "1940-09-30",
+      "description": "Torch finds a boy who has powers similar to his own! Meet Toro, the Flaming Torch Kid! Introducing Toro, the Flaming Torch Kid. Sub-Mariner Crashes New York AgainA story featuring the Sub-Mariner. Extortion for a Bail-Out -- A story featuring the Falcon.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/251258-832-119476-1-human-torch-the.jpg",
+      "userId": 4,
+      "id": 22
     }
   ]
 }

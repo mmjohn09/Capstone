@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import CollectionManager from '../modules/CollectionManager'
 import './IssueDetailAdd.css'
+import StarRatingComponent from 'react-star-rating-component';
 
 
 class AddDetailsForm extends Component {
@@ -13,7 +14,7 @@ class AddDetailsForm extends Component {
         description: '',
         publishDate: '',
         coverImg: '',
-        rating: '',
+        rating: 0,
         condition: '',
         notes: '',
         loadingStatus: false,
@@ -23,6 +24,10 @@ class AddDetailsForm extends Component {
         const stateToChange = {}
         stateToChange[evt.target.id] = evt.target.value
         this.setState(stateToChange)
+    }
+
+    onStarClick(nextValue, prevValue, name) {
+        this.setState({ rating: nextValue });
     }
 
     updateCollectionDetails = evt => {
@@ -39,33 +44,43 @@ class AddDetailsForm extends Component {
             .then(() => this.props.history.push(`/collection/${this.props.match.params.collectionId}`))
     }
 
- 
+
 
     render() {
+        const { rating } = this.state;
         return (
             <>
                 <form>
-                    <h3>Add some details...</h3>
+                    <h2 className='form__heading'>Add some details...</h2>
                     <fieldset>
                         <div className='issue-detail-form'>
-                            <input className='rating-input'
-                                type='text'
-                                required
-                                placeholder='How would you rate this title?'
-                                onChange={this.handleFieldChange}
-                                id='rating'
-                                value={this.state.rating}
-                            />
-
-
-                            <input className='condition-input'
+                            <h4>How would you rate this title?</h4>
+                            <div className='stars'>
+                                <StarRatingComponent className='rating-input'
+                                    name="rate1"
+                                    starCount={5}
+                                    starColor={"#ffd700"}
+                                    emptyStarColor={"#d3d3d3"}
+                                    value={rating}
+                                    onStarClick={this.onStarClick.bind(this)}
+                                />
+                            </div>
+                            <h4 className='condition-label'>What is the condition of your item?</h4>
+                            <select className='dropdown'>
+                                <option value="Excellent">Excellent</option>
+                                <option value="Good">Good</option>
+                                <option value="Fair">Fair</option>
+                                <option value="Poor">Poor</option>
+                            </select>
+                            
+                            {/* <input className='condition-input'
                                 type='text'
                                 required
                                 placeholder='What is the condition of your item?'
                                 onChange={this.handleFieldChange}
                                 id='condition'
                                 value={this.state.condition}
-                            />
+                            /> */}
 
                         </div>
                         <div className='save-edits-btn'>
