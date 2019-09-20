@@ -7,18 +7,6 @@
       "id": 1
     },
     {
-      "username": "Joe",
-      "email": "joe@mail.com",
-      "password": "joe",
-      "id": 2
-    },
-    {
-      "username": "Jane",
-      "email": "jane@mail.com",
-      "password": "jane",
-      "id": 3
-    },
-    {
       "username": "peterparker",
       "email": "peterparker@mail.com",
       "password": "peter",
@@ -27,16 +15,184 @@
   ],
   "collection": [
     {
-      "title": "TPB",
-      "volume": "Yuge! 30 Years of Doonesbury On Trump",
-      "issueNumber": "1",
-      "publishDate": "2016-07-31",
-      "description": "<p><em>He tried to warn us. Ever since the release of the first Trump-for-President trial balloon in 1987, Doonesbury's Garry Trudeau has tirelessly tracked and highlighted the unsavory career of the most unqualified candidate to ever aspire to the White House. It's all there--the hilarious narcissism, the schoolyard bullying, the loathsome misogyny, the breathtaking ignorance; and a good portion of the Doonesbury cast has been tangled up in it. Join Duke, Honey, Earl, J.J., Mike, Mark, Roland, Boopsie, B.D., Sal, Alice, Elmont, Sid, Zonker, Sam, Bernie, Rev. Sloan, and even the Red Rascal as they cross storylines with the big, orange airhorn who's giving the GOP such fits. Garry Trudeau is the \"sleazeball\" \"third-rate talent\" who draws the \"overrated\" comic strip Doonesbury, which \"very few people read.\" He lives in New York City with his wife Jane Pauley, who \"has far more talent than he has.\"</em></p><p><strong>Note</strong>: The digital edition (7/5/2016) for this volume was released before the print edition.</p>",
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/5302630-01.jpg",
-      "condition": "test",
-      "rating": "test",
+      "title": "The Land of Mirrors",
+      "volume": "The Legend of Wonder Woman",
+      "issueNumber": "2",
+      "publishDate": "1986-06-30",
+      "description": "Queens Solala and Leila ally themselves with Wonder Woman, but there's a traitor in their midst.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/24102-3606-26847-1-legend-of-wonder-wom.jpg",
+      "condition": "",
+      "rating": "",
       "userId": 1,
       "id": 1
+    },
+    {
+      "title": "My Guest-Star,...My Enemy",
+      "volume": "The Sensational She-Hulk",
+      "issueNumber": "3",
+      "publishDate": "1989-07-31",
+      "description": "When Mysterio comes to start trouble, Spider-Man usually follows! In this special issue we see Spidey and She-Hulk join arms to take on the Headmen! Spider-Man is following the buzzing of his spider-sense, which leads him to an unused factory. Spidey wonders what could possibly be so dangerous here, and then he spots Mysterio leaving the factory. Mysterio gets into a car and drives away. Spider-Man shoots a web-line onto the car, and follows along!",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/28334-4243-31444-1-sensational-she-hulk.jpg",
+      "condition": "",
+      "rating": "",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "title": "Of Beasts and Men!",
+      "volume": "Iron Man",
+      "issueNumber": "16",
+      "publishDate": "1969-08-01",
+      "description": "After an epic battle with the Red Ghost, Iron Man and the Unicorn team up to take him down once and for all! But will their efforts be all for nothing, when the Alpha and Beta arrive? Don't miss Iron Man in Of Mice and Men! It's a fantastically unexpected team-up, when Iron man and Unicorn fight against the Red ghost and his apes!",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/9387-2407-10359-1-iron-man.jpg",
+      "condition": "",
+      "rating": "",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "title": "The Coming of the Hulk",
+      "volume": "The Incredible Hulk",
+      "issueNumber": "1",
+      "publishDate": "1962-05-31",
+      "description": "As scientist Dr. Bruce Banner prepares to test a new weapon for the U.S. military, the gamma bomb, he is pressured into preemptively launching the bomb by visiting scientist Igor Drenkov and General Thunderbolt Ross. Having commenced the countdown Bruce notices a civilian in the test area (Rick Jones) and rushes out to save him. Unfortunately Bruce Banner is caught in the explosion of the bomb and is bombarded by gamma radiation while Rick is safely shielded in the bunker. Awaking later in a military hospital as the sun sets Bruce Banner begins to transform into a grey-skinned goliath called the Hulk and escapes the military base fleeing into the desert.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/2464602-hulk001.jpg",
+      "condition": "",
+      "rating": "",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "title": "Spider-Man; Spider-Man Vs. The Chameleon",
+      "volume": "The Amazing Spider-Man",
+      "issueNumber": "1",
+      "publishDate": "1963-03-01",
+      "description": "With his Uncle's recent passing and with it lack of income to the household, Peter Parker decides his best course of action is to continue a show biz career as Spider-Man performing various stunts for a stunned audience. Unfortunately when he returns the following night for another performance he finds that it and all future shows have been cancelled due to a newspaper editorial by a Mr. J. Jonah Jameson labelling him a menace. When the rocket piloted by Jameson's son John Jameson malfunctions however, Spider-man convinces the military to allow him to help and riding aboard a jet to catch up with John's capsule where he is able to web-zip onto the capsule and replace the defective guidance control so that John is able to land safely.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/2676366-amazingspiderman001.jpg",
+      "condition": "",
+      "rating": "",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "title": null,
+      "volume": "Josie and the Pussycats",
+      "issueNumber": "1",
+      "publishDate": "1993-01-01",
+      "description": "",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/71213-11908-104211-1-josie-and-the-pussyc.jpg",
+      "condition": "",
+      "rating": "",
+      "userId": 4,
+      "id": 6
+    },
+    {
+      "title": "Beware the Blob!",
+      "volume": "The X-Men",
+      "issueNumber": "3",
+      "publishDate": "1964-01-01",
+      "description": "The story opens with the X-men training in the Danger Room. Today Scott Summers is practicing the speed at which he can blast bean bags that are being launched at him by the Beast. The other boys are involved with some one-upmanship and roughhousing until Professor X calls them to order. Jean's task is to move a block of wood through a series of obstacles as quickly as possible. Their training is interrupted when Professor X detects the presence of another mutant nearby. He commands the X-men to change into civilian clothes to seek out this new mutant and bring him back to their headquarters.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/1355038-01.jpg",
+      "condition": "",
+      "rating": "",
+      "userId": 4,
+      "id": 9
+    },
+    {
+      "title": "Superman vs Muhammad Ali",
+      "volume": "Superman vs Muhammad Ali",
+      "issueNumber": "1",
+      "publishDate": "1978-01-01",
+      "description": "In 1978, an alien race called the Scrubb demands that Earth's greatest champion battle their world's own greatest fighter. Both Superman and Muhammad Ali step forward — and to determine who is truly Earth's greatest fighter, Superman temporarily loses his powers and faces Ali in the ring. Ultimately, the duo must work together to defeat the Scrubb, with Ali taking on their champion while Superman battles their space-armada.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/1256083-superman_vs._muhammed_ali___page_1.jpg",
+      "condition": "Test",
+      "rating": "Test",
+      "userId": 4,
+      "id": 10
+    },
+    {
+      "title": "Heaven",
+      "volume": "Silver Surfer",
+      "issueNumber": "3",
+      "publishDate": "1987-09-30",
+      "description": "Surfer hunts down The Collector seeking answers about his involvement in the Contest of Champions. What plans do the Elders of the Universe have for Galactus? Plus, the return of Espirita! The Collector is surprised to see that his wife Matani has come back to life after being dead for three billion years. Apparently, the Grandmaster was able to bring her out of Death's domain as promised. But she still has no will to live and dies in his arms. The Silver Surfer comes in for he has been looking for him since he was attacked by Champion, a fellow elder, and he learned of Grandmaster's plan to kill the Avengers.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/25713-3857-28571-1-silver-surfer.jpg",
+      "condition": "",
+      "rating": "",
+      "userId": 4,
+      "id": 11
+    },
+    {
+      "title": "Revenge of the Black Panther!",
+      "volume": "Black Panther",
+      "issueNumber": "15",
+      "publishDate": "1979-05-01",
+      "description": "KLAW has returned! The Murderous Master of Sound has already taken down the Vision, and his next target is his old nemesis, the Black Panther! Klaw's plan revealed! The Black Panther and the Avengers team-up to take down a fully powered Klaw. Plus a cliffhanger that continues in Marvel Premiere #51",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/4275218-bp15vf8m121.jpg",
+      "condition": "",
+      "rating": "",
+      "userId": 4,
+      "id": 12
+    },
+    {
+      "title": "The Earth Below",
+      "volume": "Swamp Thing",
+      "issueNumber": "24",
+      "publishDate": "1976-09-01",
+      "description": "Sabre failed to bring Swamp Thing to Colossus, so now Thrudvang must finish the job - but Swamp Thing is no longer a man-monster, he's just normal Alec Holland!",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/1993167-24.jpg",
+      "condition": "",
+      "rating": "",
+      "userId": 4,
+      "id": 13
+    },
+    {
+      "title": null,
+      "volume": "Forward with Eisenhower - Nixon",
+      "issueNumber": "1",
+      "publishDate": "1956-01-01",
+      "description": null,
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/2943952-forw1.jpg",
+      "condition": "",
+      "rating": "",
+      "userId": 4,
+      "id": 14
+    },
+    {
+      "title": "The Lady's Not For Killing!",
+      "volume": "Ms. Marvel",
+      "issueNumber": "3",
+      "publishDate": "1977-03-01",
+      "description": null,
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/15502-2910-17277-1-ms-marvel.jpg",
+      "condition": "",
+      "rating": "",
+      "userId": 4,
+      "id": 15
+    },
+    {
+      "title": "Meet Captain America",
+      "volume": "Captain America Comics",
+      "issueNumber": "1",
+      "publishDate": "1941-03-01",
+      "description": "In Washington the US government is discussing a plan to stop enemies from secretly joining their ranks and sabotaging them from the inside. J. Arthur Grover, head of the Federal Bureau of Investigation, has a plan to stop such things. Mister Grover leads the disguised army officials to an innocent looking shop of curiosities, but the shop is far from that. An old woman behind the counter leads the men through the building to a heavily barred door where it is opened by a scientist. Inside the room they find a laboratory. The old woman they've been following removes her face, revealing it was a mask to hide her identity. This young beautiful woman was Agent X-13. Afterwards the men have a seat in an adjacent room with a large window and await the new experiment about to begin. Inside the room they witness a frail young man who volunteered to take part in the procedure next to a scientist by the name of Professor Reinstein. Professor Reinstein injects the young man with a strange seething liquid, moments later the young man isn't so frail as his muscles start to grow. Professor Reinstein displays the now changed man as Captain America, America's savior against the saboteurs, spies, and enemies.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/2677627-captainamericacomics01.jpg",
+      "condition": "",
+      "rating": "",
+      "userId": 4,
+      "id": 17
+    },
+    {
+      "title": null,
+      "volume": "Beatles: Yellow Submarine",
+      "issueNumber": "1",
+      "publishDate": "1968-01-01",
+      "description": "",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/644896-yellow1.jpg",
+      "condition": "",
+      "rating": "",
+      "userId": 4,
+      "id": 18
     }
   ],
   "wishlist": [
@@ -51,26 +207,6 @@
       "id": 1
     },
     {
-      "title": "Wipe Out",
-      "volume": "The Flash",
-      "issueNumber": "14",
-      "publishDate": "1988-07-31",
-      "description": "At the behest of his beautiful neighbor, Flash takes on a mission to rescue a kidnapped mob boss, only to confront immortal drug peddler and all-around bad guy Vandal Savage. Wally gets bad news about his finances. The battle between Vandal Savage and the Flash concludes, but not until after Savage pumps the Flash full of Velocity 9! Inside joke all creator's first names were Mike. Page 4 panel 2 the tractor trailer marked with Randall is a homage to the editor Barbara Randall.Wally West was informed by his mother that his fortune is gone wiped out due to the stock market collapsing.",
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/26824-3790-29774-1-flash.jpg",
-      "userId": 1,
-      "id": 2
-    },
-    {
-      "title": "The Clipper Returns",
-      "volume": "The Flash",
-      "issueNumber": "23",
-      "publishDate": "1989-02-28",
-      "description": "The Clipper Returns. Wally's friend Mason avenges crime as The Clipper while Wally himself is once again without his powers, this time due to a bomb set off by aliens during the epic Invasion series. Guest starring Abracadabra.",
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/27811-3790-30855-1-flash.jpg",
-      "userId": 1,
-      "id": 3
-    },
-    {
       "title": "Aquababy Grows Up... And What a Rumble!",
       "volume": "Aquaman",
       "issueNumber": "25",
@@ -79,7 +215,156 @@
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/7506-2050-8281-1-aquaman.jpg",
       "userId": 1,
       "id": 4
+    },
+    {
+      "title": "The Beginning of the End",
+      "volume": "Iron Man",
+      "issueNumber": "17",
+      "publishDate": "1969-09-30",
+      "description": "Iron Man's world is crumbling down around him. With Madame Masque bombing Stark Industries and Midas plotting against him, the Iron Avenger is running out of option! Read to find out what happens in the beginning of the end!",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/4036206-im17vf8m054.jpg",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "title": "The Terror of the Toad Men",
+      "volume": "The Incredible Hulk",
+      "issueNumber": "2",
+      "publishDate": "1962-07-31",
+      "description": "The Hulk (now green in color) is seen staggering out of a swamp by a local police officer who races off to alert the town that the monster is nearby. The Hulk responds to the local’s attempts to subdue him with violence but is eventually coaxed off the battlefield by Rick Jones. Meanwhile, the Earth is about to get several strange new visitors (the Toad Men) who armed with advanced magnetic technology beyond human understanding use a 'magnetic grappler' to lock on to Dr. Banner’s vast scientific mind and land nearby to capture him. Their intention is to capture the smartest man on the planet and force him to reveal how far the planet has come technologically.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/2464603-hulk002.jpg",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "title": "Spider-Man Versus Doctor Octopus",
+      "volume": "The Amazing Spider-Man",
+      "issueNumber": "3",
+      "publishDate": "1963-07-01",
+      "description": "Witness the birth of one of Spider-Man's greatest enemies, the grotesque Dr. Octopus! As Spider-Man revels by the that fact that is no longer challenging dealing with the criminals of New York city an atomic scientist Dr. Otto Octavius (given the name Doctor Octopus by his peers due to the four remote-controlled arms he had created to handle radioactive materials) is conducting an experiment when it suddenly goes wrong. During the failed experiment an explosion causes Octavius to be exposed to a large quantity of radiation which causes the robotic arms to fuse to his body and be controlled by his mind alone. Now on the verge of insanity, Dr. Octopus begins his criminal career.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/2676381-amazingspiderman003.jpg",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "title": "Playing With Matches",
+      "volume": "Silver Surfer",
+      "issueNumber": "19",
+      "publishDate": "1989-01-01",
+      "description": "Galactus is hungry after his ordeal, having defeated In-Betweener with the help of the Surfer, Nova, the Elders of the Universe and Reed, Sue and Franklin Richards. Nova goes to find him a planet and the Surfer escorts the Richards' home to Earth. The Elders escape but Galactus knows he has eternity to for his vengeance.Meanwhile, Reptyl and his crew have unwelcome visitors, Starfox and Firelord. They are looking for Nebula but soon learn the Silver Surfer was there recently. Firelord holds a grudge against Surfer because he believes that because Surfer betrayed Galactus his friend Air-Walker became his new herald and eventually was killed. Surfer catches up with Nova who has chosen a planet. Surfer argues with her that the planet has life but she doesn't care. They are then attacked by Starfox and Firelord. Nova tries to help Surfer but Starfox uses his emotional powers on her and she stands aside. Surfer defeats Firelord but Nova kisses him to rejuvenate his power, while Surfer cannot believe what he is seeing. Starfox then reveals to Surfer that it was Galactus who told them to find Nebula in the first place, leading them to him.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/27754-3857-30789-1-silver-surfer.jpg",
+      "userId": 4,
+      "id": 8
+    },
+    {
+      "title": "Panthers or Pussycats?",
+      "volume": "Black Panther",
+      "issueNumber": "8",
+      "publishDate": "1978-03-31",
+      "description": "T’Challa’s returning to Wakanda and the timing couldn’t be better. Mutinous half-brother Jakarra has been mutated by Vibranium…and his coup for the throne is gaining fast momentum. Introducing the Wakandan Royal Family!",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/16440-2896-18320-1-black-panther.jpg",
+      "userId": 4,
+      "id": 9
+    },
+    {
+      "title": "Smokescreen",
+      "volume": "Spider-Man, Storm and Power Man",
+      "issueNumber": "1",
+      "publishDate": "1981-12-31",
+      "description": "Spider-Man, Storm, and Power Man help a young track runner stop smoking and defeat a villain named Smokescreen. Smokescreen is trying to get athletes hooked on smoking, then betting against them, knowing that their smoking will prevent them from winning any meets. This is a free promotional book given to children by the American Cancer Society to help raise awareness about the dangers of smoking.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/2689740-spidermanstormpm_2.jpg",
+      "userId": 4,
+      "id": 10
+    },
+    {
+      "title": "Call me Death-Bird!",
+      "volume": "Ms. Marvel",
+      "issueNumber": "9",
+      "publishDate": "1977-09-01",
+      "description": null,
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/15969-2910-17790-1-ms-marvel.jpg",
+      "userId": 4,
+      "id": 11
+    },
+    {
+      "title": null,
+      "volume": "True Believers: What If Spider-Man Had Rescued Gwen Stacy?",
+      "issueNumber": "1",
+      "publishDate": "2018-12-01",
+      "description": "",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/6641774-01.jpg",
+      "userId": 4,
+      "id": 13
+    },
+    {
+      "title": null,
+      "volume": "Cowboy Western",
+      "issueNumber": "33",
+      "publishDate": "1951-06-01",
+      "description": null,
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/1502880-33.jpg",
+      "userId": 4,
+      "id": 14
+    },
+    {
+      "title": "Wheels On Fire",
+      "volume": "Ghost Rider",
+      "issueNumber": "3",
+      "publishDate": "1973-12-01",
+      "description": null,
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/12388-2636-13883-1-ghost-rider.jpg",
+      "userId": 4,
+      "id": 15
+    },
+    {
+      "title": "The Rev",
+      "volume": "The Punisher",
+      "issueNumber": "4",
+      "publishDate": "1987-11-01",
+      "description": "The Rev. Sammy Smith has amassed a dangerous following…so much so that he’s gained the attention of The Punisher!After having to blow up his van in the last issue, Castle goes to Microchip who has been building his vans and tech equipment for ten years. He meets Microchip's son, who had been becoming a computer hacker. When Castle goes to buy weapons her hears of a religious cult called Church of the Saved lead by a man called the Rev that has been trying to buy multiple weapons. Then while sitting in his weapon dealers car, buying weapons they are attacked with the weapons dealer dying. Castle ducks down and waits for the attacker to come closer and then shoots him. Frank sees that his attacker was from the Church of the Saved. Frank goes back to Microchip to gather intel on the church of the saved. They discover that a cop used to be a member of the cult and Castle goes to him for information. Through him the Punisher learns that the Rev recruits inner city blacks and uses them to do his bidding. He then goes back to Microchip and they create a fake identity for him to infiltrate the cult. Frank infuriates the cult and pretends to want to join them. They accept him and later he meets the Rev, who sends him on a mission to retrieve a tape. When Castle gets the tape he is shot in the process but stashes the tapes where no ineffective will find them. He is healed by the Rev. Castle returns to get the tapes. He goes to his safe-house and watches what is on them and sees footage of the Rev executing someone.",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/3243611-004.jpg",
+      "userId": 4,
+      "id": 16
+    },
+    {
+      "title": null,
+      "volume": "True Believers: Marvel's Greatest Creators: Luke Cage, Power Man",
+      "issueNumber": "1",
+      "publishDate": "2019-07-01",
+      "description": "",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/6930234-01.jpg",
+      "userId": 4,
+      "id": 17
+    },
+    {
+      "title": "Prisoner of the 5th Dimension!",
+      "volume": "The Human Torch",
+      "issueNumber": "3",
+      "publishDate": "1975-01-01",
+      "description": "Prisoner of the 5th Dimension! Reprint of Strange Tales Reptile's Revenge! Reprint of Sub-Mariner Comics #23",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/4275365-ht3nm92m121.jpg",
+      "userId": 4,
+      "id": 18
+    },
+    {
+      "title": "GN",
+      "volume": "The Beatles, Yellow Submarine",
+      "issueNumber": "1",
+      "publishDate": "2018-08-28",
+      "description": "<p><em>The official graphic novel adaptation of The Beatles' iconic animated film, Yellow Submarine, released to coincide with the 50th Anniversary of its release! Written and illustrated by Bill Morrison, Editor of MAD Magazine! The Beatles are recruited by the captain of the Yellow Submarine to help him free Sgt, Pepper's Lonely Hearts Club Band, and the world of Pepperland from the music-hating Blue Meanies.</em></p>",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/6583949-01.jpg",
+      "userId": 4,
+      "id": 19
+    },
+    {
+      "title": "The Crime Predictor",
+      "volume": "Batman",
+      "issueNumber": "77",
+      "publishDate": "1953-06-01",
+      "description": "<p>Stories: </p><p> </p><ol><li>The Crime Predictor: ''Dancer'' Kern bribed Ralph Edney, a carpenter, to install a series of hidden panels in buildings around Gotham City where he and his men could store their loot after committing robberies, allowing them to escape without fear of losing their new possessions. Batman and Robin attempted to track Kern and his gang to recover the property but were hampered when Captain Harby, filling in for Police Commissioner James Gordon, decided the Dynamic Duo were glory hounds. Rather then let them operate as normal, he tasked them with routine uniformed</li><li>The Secret Star</li><li>Batman Pounds a Beat</li></ol>",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/527-796-560-1-batman.jpg",
+      "userId": 4,
+      "id": 20
     }
-  ],
-  "issueDetails": []
+  ]
 }

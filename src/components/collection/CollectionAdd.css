@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
-body {
-    background-image: url('https://c.wallhere.com/photos/c9/f4/1920x886_px_DC_Comics_Dr_Manhattan_Watchmen-737776.jpg!d')
-}
-
 h5 {
     font-family: 'oswald', 'arial', 'sans-serif';
     color: white;
@@ -131,4 +127,12 @@ button:hover {
 
 .details-btn:hover {
     opacity: 1;
+}
+
+.page__heading {
+    font-family: 'oswald','arial','sans-serif';
+    color: white;
+    margin-left: 125px;
+    margin-bottom: 0px;
+    margin-top: 50px;
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import CollectionManager from '../modules/CollectionManager'
+import CollectionManager from '../../modules/CollectionManager'
 import './CollectionAdd.css'
 import { Link } from "react-router-dom";
 
@@ -35,25 +35,25 @@ export default class CollectionList extends Component {
 
     render() {
         return (
-            <div className='card-container'>
-                <div className='row hidden-md-up'>
-                    {this.state.collection.map(collection => (
-                        <div className='card-block' key={collection.id}>
-                            <img className='card-img-top' src={collection.coverImg} alt="" />
-                            <div className='card-body'>
-                                <div>
+            <>
+                <h2 className='page__heading'>My Collection</h2>
+                <div className='card-container'>
+                    <div className='row hidden-md-up'>
+                        {this.state.collection.map(collection => (
+                            <div className='card-block' key={collection.id}>
+                                <img className='card-img-top' src={collection.coverImg} alt="" />
+                                <div className='card-body'>
                                     <div className='card-btns'>
                                         <Link to={`/collection/${collection.id}`}><button type='button' className='details-btn'>Details</button></Link>
-                                        <button type="button" className='delete-btn' onClick={(evt)=> this.deleteCollectionItem(evt, collection.id)}>Delete</button></div>
-                                    
-                                    
+                                        <button type="button" className='delete-btn' onClick={(evt) => this.deleteCollectionItem(evt, collection.id)}>Delete</button></div>
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
-            </div>
+            </>
         )
     }
 }
+
 

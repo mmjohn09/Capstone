@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import WishlistManager from '../modules/WishlistManager';
+import WishlistManager from '../../modules/WishlistManager';
 import './WishlistIssueDetail.css'
 
 

@@ -71,6 +71,8 @@ class VolumeDetail extends Component {
     render() {
         return (
             <>
+            <body className='results-background-img'>
+                <h2 className='page__heading'>Results</h2>
                 <div className="card-container">
                     <div className="row hidden-md-up">
                         {this.state.issues.map(issue => (
@@ -88,6 +90,7 @@ class VolumeDetail extends Component {
                         ))}
                     </div>
                 </div>
+            </body>
             </>
         );
     }

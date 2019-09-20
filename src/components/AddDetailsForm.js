@@ -1,22 +1,21 @@
-import React, { Component } from "react"
-// import { withRouter } from 'react-router-dom'
-import CollectionManager from "../modules/CollectionManager"
-import { Rating } from 'semantic-ui-react'
+import React, { Component } from 'react'
+import CollectionManager from '../modules/CollectionManager'
 import './IssueDetailAdd.css'
+
 
 class AddDetailsForm extends Component {
     //set the initial state
     state = {
         collection: [],
-        title: "",
-        volume: "",
-        issueNumber: "",
-        description: "",
-        publishDate: "",
-        coverImg: "",
-        rating: "",
-        condition: "",
-        notes: "",
+        title: '',
+        volume: '',
+        issueNumber: '',
+        description: '',
+        publishDate: '',
+        coverImg: '',
+        rating: '',
+        condition: '',
+        notes: '',
         loadingStatus: false,
     };
 
@@ -35,13 +34,12 @@ class AddDetailsForm extends Component {
             rating: this.state.rating
 
         };
-        console.log(editedCollectionObject)
 
         CollectionManager.updateCollectionDetails(editedCollectionObject)
             .then(() => this.props.history.push(`/collection/${this.props.match.params.collectionId}`))
     }
 
-
+ 
 
     render() {
         return (
@@ -49,32 +47,32 @@ class AddDetailsForm extends Component {
                 <form>
                     <h3>Add some details...</h3>
                     <fieldset>
-                        <div className="issue-detail-form">
-                            <input className="rating-input"
-                                type="text"
+                        <div className='issue-detail-form'>
+                            <input className='rating-input'
+                                type='text'
                                 required
-                                placeholder="How would you rate this title?"
+                                placeholder='How would you rate this title?'
                                 onChange={this.handleFieldChange}
-                                id="rating"
+                                id='rating'
                                 value={this.state.rating}
                             />
 
 
-                            <input className="condition-input"
-                                type="text"
+                            <input className='condition-input'
+                                type='text'
                                 required
-                                placeholder="What is the condition of your item?"
+                                placeholder='What is the condition of your item?'
                                 onChange={this.handleFieldChange}
-                                id="condition"
+                                id='condition'
                                 value={this.state.condition}
                             />
 
                         </div>
-                        <div className="save-edits-btn">
+                        <div className='save-edits-btn'>
                             <button
-                                type="button" disabled={this.state.loadingStatus}
+                                type='button' disabled={this.state.loadingStatus}
                                 onClick={this.updateCollectionDetails}
-                                className="save-edit"
+                                className='save-edit'
                             >Save</button>
                         </div>
                     </fieldset>

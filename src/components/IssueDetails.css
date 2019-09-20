@@ -18,8 +18,18 @@
 } 
 
 .p-description {
-    width: 700px;
-    margin-left: 200px;
+    font-family: 'oswald', 'arial', 'sans-serif';
+    width: 800px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+.p-condition {
+   margin: 5px;
+} 
+
+.p-rating {
+    margin: 5px;
 }
 
 .detail-title {
@@ -29,6 +39,7 @@
 }
 
 .btn-grp {
+    margin-top: 20px;
     opacity: 0.6;
     transition: 0.3s;
     border-radius: 2px;

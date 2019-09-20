@@ -24,3 +24,15 @@
 .addWishlist-btn:hover {
     opacity: 1;
 }
+
+.results-background-img {
+    background-image: url('background.png')
+}
+
+.page__heading {
+    font-family: 'oswald','arial','sans-serif';
+    color: white;
+    margin-left: 125px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
