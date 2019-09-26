@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import CollectionManager from '../modules/CollectionManager'
 import './IssueDetailAdd.css'
 import StarRatingComponent from 'react-star-rating-component';
-
+import './Captain-Shield-512.png'
 
 class AddDetailsForm extends Component {
     //set the initial state
@@ -51,7 +51,7 @@ class AddDetailsForm extends Component {
         return (
             <>
                 <form>
-                    <h2 className='form__heading'>Add some details...</h2>
+                    {/* <h2 className='form__heading'>Add some details...</h2> */}
                     <fieldset>
                         <div className='issue-detail-form'>
                             <h4>How would you rate this title?</h4>
@@ -59,6 +59,7 @@ class AddDetailsForm extends Component {
                                 <StarRatingComponent className='rating-input'
                                     name="rate1"
                                     starCount={5}
+                                    // renderStarIcon={() => <span><img src="Captain-Shield-512.png"></img></span>}
                                     starColor={"#ffd700"}
                                     emptyStarColor={"#d3d3d3"}
                                     value={rating}
@@ -66,11 +67,14 @@ class AddDetailsForm extends Component {
                                 />
                             </div>
                             <h4 className='condition-label'>What is the condition of your item?</h4>
-                            <select className='dropdown'>
-                                <option value="Excellent">Excellent</option>
-                                <option value="Good">Good</option>
-                                <option value="Fair">Fair</option>
-                                <option value="Poor">Poor</option>
+                            <select className='dropdown' onChange={this.handleFieldChange}
+                                id='condition'
+                                value={this.state.condition}>
+                                <option value="EXCELLENT">Excellent</option>
+                                <option value="GOOD">Good</option>
+                                <option value="FAIR">Fair</option>
+                                <option value="POOR">Poor</option>
+                                
                             </select>
                             
                             {/* <input className='condition-input'

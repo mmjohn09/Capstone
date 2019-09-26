@@ -7,7 +7,7 @@ class Navbar extends Component {
     return (
       <>
         <nav className='home'>
-          <div><Link className='nav-home' to='/search'>Comic Nook</Link></div>
+          <Link className='nav-home' to='/search'>Comic Nook</Link>
           <div className='navbar'>
             <ul className='container'>
               <li><Link className='nav-link' to='/collection'>My Collection</Link></li>

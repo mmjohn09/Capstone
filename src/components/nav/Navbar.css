@@ -32,16 +32,16 @@
     font-family: 'bangers', 'oswald', 'sans-serif';
     font-size: 32pt;
     color: white;
-    margin-left: 70px;
-    margin-top: 55px;
-    margin-right: 10px;
-    width: 190px;
+    margin-top: 7px;
+    margin-left: 25px;
 }
 
 .navbar {
     height: 50px;
     padding: 0px;
     width: 1100px;
+    margin-left: 100px;
+    margin-top: 7px;
  
 }
 
