@@ -105,8 +105,8 @@
       "publishDate": "1978-01-01",
       "description": "In 1978, an alien race called the Scrubb demands that Earth's greatest champion battle their world's own greatest fighter. Both Superman and Muhammad Ali step forward — and to determine who is truly Earth's greatest fighter, Superman temporarily loses his powers and faces Ali in the ring. Ultimately, the duo must work together to defeat the Scrubb, with Ali taking on their champion while Superman battles their space-armada.",
       "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/1256083-superman_vs._muhammed_ali___page_1.jpg",
-      "condition": "",
-      "rating": 4,
+      "condition": "GOOD",
+      "rating": 5,
       "userId": 4,
       "id": 10
     },
@@ -147,18 +147,6 @@
       "id": 13
     },
     {
-      "title": null,
-      "volume": "Forward with Eisenhower - Nixon",
-      "issueNumber": "1",
-      "publishDate": "1956-01-01",
-      "description": null,
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/2943952-forw1.jpg",
-      "condition": "",
-      "rating": 3,
-      "userId": 4,
-      "id": 14
-    },
-    {
       "title": "The Lady's Not For Killing!",
       "volume": "Ms. Marvel",
       "issueNumber": "3",
@@ -181,18 +169,6 @@
       "rating": 1,
       "userId": 4,
       "id": 17
-    },
-    {
-      "title": null,
-      "volume": "Beatles: Yellow Submarine",
-      "issueNumber": "1",
-      "publishDate": "1968-01-01",
-      "description": "",
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/644896-yellow1.jpg",
-      "condition": "",
-      "rating": 1,
-      "userId": 4,
-      "id": 18
     },
     {
       "title": "The Flying Batman",
@@ -349,26 +325,6 @@
       "id": 18
     },
     {
-      "title": "GN",
-      "volume": "The Beatles, Yellow Submarine",
-      "issueNumber": "1",
-      "publishDate": "2018-08-28",
-      "description": "The official graphic novel adaptation of The Beatles' iconic animated film, Yellow Submarine, released to coincide with the 50th Anniversary of its release! Written and illustrated by Bill Morrison, Editor of MAD Magazine! The Beatles are recruited by the captain of the Yellow Submarine to help him free Sgt, Pepper's Lonely Hearts Club Band, and the world of Pepperland from the music-hating Blue Meanies.",
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/6583949-01.jpg",
-      "userId": 4,
-      "id": 19
-    },
-    {
-      "title": "The Crime Predictor",
-      "volume": "Batman",
-      "issueNumber": "77",
-      "publishDate": "1953-06-01",
-      "description": "The Crime Predictor: ''Dancer'' Kern bribed Ralph Edney, a carpenter, to install a series of hidden panels in buildings around Gotham City where he and his men could store their loot after committing robberies, allowing them to escape without fear of losing their new possessions. Batman and Robin attempted to track Kern and his gang to recover the property but were hampered when Captain Harby, filling in for Police Commissioner James Gordon, decided the Dynamic Duo were glory hounds. Rather then let them operate as normal, he tasked them with routine uniformedThe Secret Star Batman Pounds a Beat",
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/527-796-560-1-batman.jpg",
-      "userId": 4,
-      "id": 20
-    },
-    {
       "title": "The Power of the Word",
       "volume": "The Savage She-Hulk",
       "issueNumber": "9",
@@ -379,12 +335,12 @@
       "id": 21
     },
     {
-      "title": "Introducing Toro; Sub-Mariner Crashes New York Again",
-      "volume": "The Human Torch",
-      "issueNumber": "2",
-      "publishDate": "1940-09-30",
-      "description": "Torch finds a boy who has powers similar to his own! Meet Toro, the Flaming Torch Kid! Introducing Toro, the Flaming Torch Kid. Sub-Mariner Crashes New York AgainA story featuring the Sub-Mariner. Extortion for a Bail-Out -- A story featuring the Falcon.",
-      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/251258-832-119476-1-human-torch-the.jpg",
+      "title": "-",
+      "volume": "Presidential Material: John McCain",
+      "issueNumber": "1",
+      "publishDate": "2008-10-01",
+      "description": "<p><i>John McCain is a true American hero, and his tale, taking him from the hells of Vietnam to becoming the Republican nominee for President is a story well worth telling. J. Scott Campbell again provides the cover for the comic-biography of one of the two candidates in November's historic Presidential contest.</i></p>",
+      "coverImg": "https://comicvine.gamespot.com/api/image/scale_small/574013-pmjm.jpg",
       "userId": 4,
       "id": 22
     }

@@ -26,6 +26,8 @@
 
 .p-condition {
    margin: 5px;
+   font-family: 'oswald', 'arial', 'sans-serif';
+   font-size: 16pt;
 } 
 
 .p-rating {

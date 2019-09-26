@@ -53,7 +53,7 @@ class IssueDetail extends Component {
                             starCount={5}
                             value={this.state.rating}
                         />
-                        <p className='p-condition'>{this.state.condition}</p>
+                        <p className='p-condition'>Condtion of item: {this.state.condition}</p>
                         <div className='btn-grp'>
                             <button className='add-detail-btn' type='button' onClick={() => { this.props.history.push(`/collection/${this.props.collectionId}/details`) }}>EDIT DETAILS</button>
                             {/* <button className='edit-detail-btn' type='button'>EDIT DETAILS</button> */}
